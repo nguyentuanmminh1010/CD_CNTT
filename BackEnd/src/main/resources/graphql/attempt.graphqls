@@ -1,0 +1,52 @@
+enum AttemptType {
+    ASSESSMENT
+    PLACEMENT
+    TOEIC
+    READING
+    WRITING
+    SPEAKING
+    LISTENING
+}
+
+type Attempt {
+    id: ID!
+    type: AttemptType!
+    title: String!
+    totalQuestions: Int!
+    correctCount: Int!
+    scorePercent: Int!
+    "Khoá tham chiếu tuỳ chọn, vd level:{courseId}:{level} cho Level Test."
+    refKey: String
+    "Thời điểm làm bài, ISO-8601."
+    createdAt: String!
+}
+
+extend type Query {
+    "Lịch sử các lượt làm bài của người dùng đang đăng nhập, mới nhất trước."
+    myAttempts(limit: Int = 20): [Attempt!]!
+    "Chi tiết từng câu của một lượt làm bài (đáp án đã chọn vs đáp án đúng)."
+    attemptAnswers(attemptId: ID!): [AttemptAnswerView!]!
+    "Đề ngẫu nhiên cho một bài test ở tab Đánh giá, lọc theo category (bỏ trống = tất cả) và khoảng độ khó."
+    assessmentItems(category: LearningCategory, minDifficulty: Int = 1, maxDifficulty: Int = 3, limit: Int = 10): [LearningItem!]!
+}
+
+"Một câu của lượt làm bài (đã chấm ở backend) — để xem lại đáp án."
+type AttemptAnswerView {
+    itemId: ID!
+    term: String!
+    meaning: String!
+    mode: AnswerMode!
+    "Câu trả lời đã gửi."
+    answer: String
+    correct: Boolean!
+    correctAnswer: String!
+    "Lời giải thích (do biên tập viên nhập, hoặc sinh từ nghĩa + ví dụ nếu chưa có)."
+    explanation: String!
+    "Hình minh hoạ của mục (nếu có)."
+    imageUrl: String
+}
+
+extend type Mutation {
+    "Kết thúc một lượt làm bài: backend gom các câu đã chấm (submitAnswer) có cùng attemptKey và TỰ TÍNH điểm. expectedTotal = số câu của đề (không thể thổi điểm bằng cách bỏ câu sai)."
+    finishAttempt(attemptKey: String!, type: AttemptType!, title: String!, refKey: String, expectedTotal: Int): Attempt!
+}

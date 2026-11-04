@@ -1,0 +1,29 @@
+type TopicReview {
+    id: ID!
+    displayName: String!
+    avatar: String
+    rating: Int!
+    comment: String
+    "Thời điểm cập nhật, ISO-8601."
+    updatedAt: String!
+    "Đánh giá của chính người dùng đang xem."
+    mine: Boolean!
+}
+
+type TopicReviews {
+    "Số sao trung bình (làm tròn 1 chữ số), 0 nếu chưa có đánh giá."
+    average: Float!
+    count: Int!
+    myReview: TopicReview
+    "20 đánh giá mới nhất."
+    reviews: [TopicReview!]!
+}
+
+extend type Query {
+    topicReviews(topicId: ID!): TopicReviews!
+}
+
+extend type Mutation {
+    "Gửi (hoặc ghi đè) đánh giá 1-5 sao của người dùng cho một bài học."
+    submitTopicReview(topicId: ID!, rating: Int!, comment: String): TopicReviews!
+}

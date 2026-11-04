@@ -1,0 +1,41 @@
+"Quan hệ của người dùng hiện tại với một người khác."
+enum FriendRelation {
+    NONE
+    REQUEST_SENT
+    REQUEST_RECEIVED
+    FRIEND
+    BLOCKED
+}
+
+"Thông tin công khai của một người dùng (không lộ email)."
+type PublicUser {
+    id: ID!
+    displayName: String!
+    avatar: String
+    relation: FriendRelation!
+}
+
+extend type Query {
+    "Tìm người dùng theo tên hiển thị (chứa chuỗi, tối thiểu 2 ký tự) hoặc đúng email; không hiện người đã chặn bạn."
+    searchUsers(query: String!): [PublicUser!]!
+    "Bạn bè (hai bên đã chấp nhận)."
+    friends: [PublicUser!]!
+    "Lời mời kết bạn đang chờ bạn trả lời."
+    friendRequests: [PublicUser!]!
+    "Người vừa chấp nhận lời mời của bạn trong 7 ngày qua (nguồn cho thông báo)."
+    recentFriends: [PublicUser!]!
+    "Những người bạn đã chặn."
+    blockedUsers: [PublicUser!]!
+}
+
+extend type Mutation {
+    "Gửi lời mời kết bạn (nếu đối phương đã mời bạn thì thành bạn luôn)."
+    sendFriendRequest(userId: ID!): PublicUser!
+    "Chấp nhận/từ chối lời mời của userId."
+    respondFriendRequest(userId: ID!, accept: Boolean!): PublicUser!
+    "Huỷ kết bạn hoặc thu hồi lời mời đã gửi."
+    removeFriend(userId: ID!): PublicUser!
+    "Chặn người dùng (đồng thời huỷ quan hệ bạn bè)."
+    blockUser(userId: ID!): PublicUser!
+    unblockUser(userId: ID!): PublicUser!
+}

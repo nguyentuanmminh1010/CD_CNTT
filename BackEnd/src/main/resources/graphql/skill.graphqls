@@ -1,0 +1,18 @@
+enum Skill {
+    READING
+    WRITING
+    LISTENING
+    SPEAKING
+}
+
+type SkillMastery {
+    skill: Skill!
+    totalAttempts: Int!
+    correctAttempts: Int!
+}
+
+extend type Query {
+    "Tổng số lượt luyện tập + số lượt đúng theo từng kỹ năng (Đọc/Viết/Nghe/Nói), cả 4 kỹ năng luôn có mặt (0 lượt nếu chưa luyện) — dùng vẽ radar chart ở Hồ sơ."
+    skillMastery: [SkillMastery!]!
+}
+

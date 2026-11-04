@@ -1,0 +1,36 @@
+type UserActivityDay {
+    activityDate: String!
+    itemsCompleted: Int!
+}
+
+type ActivitySummary {
+    "Số ngày liên tiếp có hoạt động học tính đến hôm nay."
+    currentStreak: Int!
+    "Tổng số ngày (không nhất thiết liên tiếp) người dùng từng có hoạt động."
+    totalActiveDays: Int!
+    totalItemsCompleted: Int!
+    "Toàn bộ các ngày có hoạt động, mới nhất trước — dùng vẽ lịch/heatmap ở tab Tiến độ."
+    recentDays: [UserActivityDay!]!
+}
+
+type MasteryOverview {
+    totalItems: Int!
+    masteredItems: Int!
+}
+
+type CategoryMastery {
+    category: LearningCategory!
+    totalItems: Int!
+    masteredItems: Int!
+}
+
+extend type Query {
+    "Hoạt động học của người dùng đang đăng nhập — dữ liệu cho tab Tiến độ."
+    myActivity: ActivitySummary!
+    "Tổng số mục nội dung và số mục đã thuộc (mọi category) — tiến độ Ôn thi TOEIC ở Home."
+    masteryOverview: MasteryOverview!
+    "Tổng số mục và số mục đã thuộc CỦA TỪNG category — dùng vẽ radar chart ở Hồ sơ."
+    masteryByCategory: [CategoryMastery!]!
+    "Đề luyện thi TOEIC: các mục (mọi category) chưa thuộc, độ khó thấp trước."
+    toeicPracticeItems(limit: Int = 10): [LearningItem!]!
+}

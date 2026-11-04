@@ -14,6 +14,12 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Learn E cần micro để bạn luyện nói tiếng Anh.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Learn E dùng nhận diện giọng nói để so khớp câu bạn nói với đáp án mẫu.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Learn E cần truy cập ảnh để bạn đặt ảnh đại diện.</string>
 	<key>CFBundleName</key>
 	<string>e_app</string>
 	<key>CFBundlePackageType</key>

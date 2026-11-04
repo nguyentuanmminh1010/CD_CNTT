@@ -1,0 +1,59 @@
+type CourseUnit {
+    id: ID!
+    level: Int!
+    position: Int!
+    topic: LearningTopic!
+    totalItems: Int!
+    masteredItems: Int!
+    "Đã thuộc mọi mục của chủ đề."
+    completed: Boolean!
+    "Level trước chưa vượt Level Test (>=70%) nên Unit này đang bị khoá."
+    locked: Boolean!
+}
+
+"Kết quả Level Test của một Level."
+type LevelResult {
+    level: Int!
+    bestPercent: Int!
+    attempted: Boolean!
+    passed: Boolean!
+}
+
+type Course {
+    id: ID!
+    title: String!
+    description: String
+    icon: String
+    enrolled: Boolean!
+    unitCount: Int!
+    completedUnits: Int!
+    totalItems: Int!
+    masteredItems: Int!
+    "Hoàn thành khoá = mọi Unit đã thuộc VÀ mọi Level Test đã đạt (tính theo nội dung HIỆN TẠI)."
+    completed: Boolean!
+    "Đã nhận giấy chứng nhận — lưu vĩnh viễn từ lần hoàn thành đầu tiên, vẫn true khi khoá có thêm nội dung."
+    certified: Boolean!
+    "Thời điểm hoàn thành lần đầu (ISO-8601); null nếu chưa có chứng chỉ."
+    certifiedAt: String
+    "Chỉ có ở chi tiết một khoá học; rỗng ở danh sách."
+    units: [CourseUnit!]!
+    "Chỉ có ở chi tiết một khoá học."
+    levelResults: [LevelResult!]!
+}
+
+extend type Query {
+    courses: [Course!]!
+    course(id: ID!): Course!
+    "Giấy chứng nhận: khoá đã đăng ký và đã từng hoàn thành (lưu vĩnh viễn), theo thứ tự hoàn thành."
+    certificates: [Course!]!
+}
+
+extend type Mutation {
+    enrollCourse(courseId: ID!): Course!
+    "Quản trị (chỉ admin): tạo khoá học mới."
+    createCourse(title: String!, description: String, icon: String): Course!
+    deleteCourse(id: ID!): Boolean!
+    "Quản trị: thêm một chủ đề làm Unit vào Level của khoá học."
+    addCourseUnit(courseId: ID!, level: Int!, topicId: ID!): Course!
+    removeCourseUnit(unitId: ID!): Course!
+}

@@ -43,3 +43,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Bỏ qua toàn bộ thư mục build Flutter & Android
+**/build/
+**/android/build/
+.dart_tool/
+
+# File nhạy cảm / file cá nhân
+*Token*.txt
+FacebookID.txt
+e_app/_p.js
+CLAUDE.md
+/docs
+/.claude

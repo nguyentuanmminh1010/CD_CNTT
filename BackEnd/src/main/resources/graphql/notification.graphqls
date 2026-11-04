@@ -1,0 +1,9 @@
+extend type Query {
+    "Khoá các thông báo người dùng đã đọc (thông báo được client suy ra từ dữ liệu, mỗi cái có khoá ổn định)."
+    readNotificationKeys: [String!]!
+}
+
+extend type Mutation {
+    "Đánh dấu các thông báo (theo khoá) là đã đọc."
+    markNotificationsRead(keys: [String!]!): Boolean!
+}

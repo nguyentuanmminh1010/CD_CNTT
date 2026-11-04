@@ -1,0 +1,151 @@
+enum LearningCategory {
+    VOCABULARY
+    GRAMMAR
+    SENTENCE
+}
+
+"Cách backend chấm một câu trả lời."
+enum AnswerMode {
+    "Chọn nghĩa (đáp án = meaning)."
+    MEANING
+    "Gõ lại thuật ngữ/câu tiếng Anh (đáp án = term, bỏ qua hoa-thường và dấu câu cuối)."
+    TERM
+    "Ghép từ thành câu (đáp án = các từ của example, đúng thứ tự)."
+    SENTENCE
+    "Câu đã nói (so khớp từ với term, đạt từ 70%)."
+    SPOKEN
+}
+
+type LearningTopic {
+    id: ID!
+    name: String!
+    description: String
+    icon: String
+    wordCount: Int!
+    category: LearningCategory!
+    "Bộ thẻ riêng do chính người dùng tạo (không phải chủ đề hệ thống)."
+    mine: Boolean!
+    "Người dùng hiện tại sửa được chủ đề này (chủ bộ thẻ, hoặc admin với chủ đề hệ thống)."
+    editable: Boolean!
+    "Nội dung tab Hướng dẫn của bài học (mỗi dòng một bước). Null = dùng bước mặc định ở client."
+    guide: String
+    "Mã chia sẻ (chỉ chủ bộ thẻ thấy); null = không chia sẻ."
+    shareCode: String
+}
+
+type LearningItem {
+    id: ID!
+    term: String!
+    phonetic: String
+    meaning: String!
+    example: String
+    "Lời giải thích (null = client hiện nghĩa + ví dụ)."
+    explanation: String
+    "Hình minh hoạ: URL http(s) hoặc data URL base64."
+    imageUrl: String
+    "Link file audio; null = đọc bằng giọng máy (TTS) ở client."
+    audioUrl: String
+    difficultyLevel: Int!
+    "Trạng thái 'đã thuộc' theo người dùng đang đăng nhập; false nếu chưa đăng nhập."
+    mastered: Boolean!
+    topic: LearningTopic!
+}
+
+"Kết quả nhập hàng loạt thẻ."
+type ImportResult {
+    added: Int!
+    skipped: Int!
+    errors: [String!]!
+}
+
+"Bộ thẻ bạn bè gửi riêng cho bạn, đang chờ nhận hoặc từ chối."
+type DeckGift {
+    id: ID!
+    name: String!
+    wordCount: Int!
+    senderName: String!
+    createdAt: String!
+}
+
+"Bản xem trước bộ thẻ được chia sẻ qua mã."
+type SharedDeck {
+    code: String!
+    name: String!
+    description: String
+    category: LearningCategory!
+    wordCount: Int!
+    ownerName: String!
+}
+
+"Kết quả chấm một câu trả lời ở backend."
+type AnswerResult {
+    correct: Boolean!
+    correctAnswer: String!
+    "Độ tương đồng 0..1 (chỉ có ý nghĩa với SPOKEN)."
+    similarity: Float!
+}
+
+"Chủ đề nên luyện tiếp, kèm điểm thành thạo (mastery 0..1) của người dùng."
+type RecommendedTopic {
+    topic: LearningTopic!
+    score: Float!
+    "Độ khó nên luyện (1-3) suy ra từ mastery."
+    suggestedDifficulty: Int!
+    totalItems: Int!
+    masteredItems: Int!
+}
+
+extend type Query {
+    vocabularyTopics: [LearningTopic!]!
+    vocabularyItems(topicId: ID!): [LearningItem!]!
+    grammarTopics: [LearningTopic!]!
+    grammarItems(topicId: ID!): [LearningItem!]!
+    sentenceTopics: [LearningTopic!]!
+    sentenceItems(topicId: ID!): [LearningItem!]!
+    "Các mục (Vocabulary/Grammar/Sentence lẫn lộn) mà người dùng đang đăng nhập từng đánh dấu là chưa thuộc/trả lời sai gần nhất — dùng cho tab Ôn tập."
+    wrongItems: [LearningItem!]!
+    "Các mục đến hạn ôn lại theo lịch lặp lại ngắt quãng (Leitner), đến hạn lâu nhất trước."
+    dueItems(limit: Int = 30): [LearningItem!]!
+    dueItemCount: Int!
+    "Chủ đề nên luyện tiếp (mastery thấp nhất trong số chủ đề còn mục chưa thuộc)."
+    recommendedTopics(limit: Int = 3): [RecommendedTopic!]!
+    "Tìm kiếm nội dung (kho chung + bộ thẻ của bạn) theo term/meaning — dùng cho ô tìm kiếm ở Home."
+    searchItems(query: String!, limit: Int = 30): [LearningItem!]!
+    "Các bộ thẻ riêng do người dùng tạo."
+    myDecks: [LearningTopic!]!
+    "Admin: toàn bộ chủ đề hệ thống (mọi category) để quản lý nội dung."
+    systemTopics: [LearningTopic!]!
+    "Xem trước bộ thẻ được chia sẻ bằng mã."
+    sharedDeck(code: String!): SharedDeck!
+    "Bộ thẻ bạn bè đã gửi riêng cho bạn và đang chờ bạn nhận."
+    deckGifts: [DeckGift!]!
+}
+
+extend type Mutation {
+    "Tự đánh giá đã thuộc/cần ôn ở Flashcard (không chấm điểm)."
+    markVocabularyItemMastered(itemId: ID!, mastered: Boolean!): LearningItem!
+    markGrammarItemMastered(itemId: ID!, mastered: Boolean!): LearningItem!
+    markSentenceItemMastered(itemId: ID!, mastered: Boolean!): LearningItem!
+    "Gửi câu trả lời để BACKEND chấm (không gửi 'đúng/sai' từ client). attemptKey gom các câu của một lượt; skill (nếu có) cập nhật thống kê kỹ năng."
+    submitAnswer(itemId: ID!, mode: AnswerMode!, answer: String!, attemptKey: String, skill: Skill): AnswerResult!
+    "Tạo bộ thẻ riêng (mặc định VOCABULARY)."
+    createDeck(name: String!, description: String, category: LearningCategory = VOCABULARY, icon: String): LearningTopic!
+    "Đổi tên/mô tả chủ đề (chủ bộ thẻ, hoặc admin với chủ đề hệ thống)."
+    updateTopic(topicId: ID!, name: String, description: String, guide: String): LearningTopic!
+    "Xoá bộ thẻ riêng cùng thẻ và tiến độ liên quan."
+    deleteTopic(topicId: ID!): Boolean!
+    addItem(topicId: ID!, term: String!, phonetic: String, meaning: String!, example: String, difficultyLevel: Int, explanation: String, imageUrl: String, audioUrl: String): LearningItem!
+    updateItem(itemId: ID!, term: String!, phonetic: String, meaning: String!, example: String, difficultyLevel: Int, explanation: String, imageUrl: String, audioUrl: String): LearningItem!
+    deleteItem(itemId: ID!): Boolean!
+    "Nhập nhiều thẻ từ văn bản dán vào: mỗi dòng `term | nghĩa | ví dụ | phiên âm` (phân tách bằng Tab, ; | hoặc dấu phẩy)."
+    importItems(topicId: ID!, text: String!): ImportResult!
+    "Bật chia sẻ bộ thẻ riêng và trả về mã chia sẻ."
+    shareDeck(topicId: ID!): String!
+    unshareDeck(topicId: ID!): Boolean!
+    "Sao chép bộ thẻ được chia sẻ (theo mã) về thành bộ thẻ riêng của bạn."
+    importSharedDeck(code: String!): LearningTopic!
+    "Gửi bộ thẻ riêng của bạn cho một người bạn (đã chấp nhận kết bạn)."
+    sendDeckToFriend(topicId: ID!, friendId: ID!): Boolean!
+    "Nhận (sao chép về thành bộ thẻ riêng — trả về bộ thẻ mới) hoặc từ chối (trả null) bộ thẻ được gửi."
+    respondDeckGift(giftId: ID!, accept: Boolean!): LearningTopic
+}

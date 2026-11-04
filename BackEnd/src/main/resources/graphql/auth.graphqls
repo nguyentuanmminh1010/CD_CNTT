@@ -1,0 +1,73 @@
+enum AuthProvider {
+    LOCAL
+    GOOGLE
+    FACEBOOK
+}
+
+enum Gender {
+    MALE
+    FEMALE
+}
+
+enum LearningPurpose {
+    NONE
+    STUDY
+    WORK
+    DAILY_COMMUNICATION
+    MAKE_FRIENDS
+    OTHER
+}
+
+enum StartMode {
+    FROM_SCRATCH
+    PLACEMENT_TEST
+}
+
+type User {
+    id: ID!
+    email: String
+    displayName: String!
+    authProvider: AuthProvider!
+    "Dữ liệu khảo sát cá nhân hoá sau đăng ký (mutation updateProfile) — null nếu chưa khảo sát."
+    dob: String
+    gender: Gender
+    learningPurpose: LearningPurpose
+    dailyMinutes: Int
+    startMode: StartMode
+    "Ảnh đại diện dạng data URL, null nếu chưa đặt."
+    avatar: String
+    "Có quyền quản trị nội dung (email nằm trong app.admin-emails)."
+    isAdmin: Boolean!
+}
+
+type AuthPayload {
+    token: String!
+    user: User!
+}
+
+extend type Query {
+    "Người dùng hiện tại theo JWT trong header Authorization, null nếu chưa đăng nhập."
+    me: User
+}
+
+extend type Mutation {
+    "Yêu cầu mã đặt lại mật khẩu (6 số, hiệu lực 15 phút). Luôn trả true — không tiết lộ email có tồn tại hay không."
+    requestPasswordReset(email: String!): Boolean!
+    "Đặt mật khẩu mới bằng mã nhận được."
+    resetPassword(email: String!, code: String!, newPassword: String!): Boolean!
+    "Đặt ảnh đại diện (data URL); chuỗi rỗng/null để xoá."
+    updateAvatar(avatar: String): User!
+    register(email: String!, password: String!, displayName: String!): AuthPayload!
+    login(email: String!, password: String!): AuthPayload!
+    loginWithGoogle(idToken: String!): AuthPayload!
+    loginWithFacebook(accessToken: String!): AuthPayload!
+    "Ghi dữ liệu khảo sát cá nhân hoá (hoặc tên hiển thị) lên User đang đăng nhập; field nào null thì giữ nguyên giá trị cũ. dob dạng ISO 'yyyy-MM-dd'."
+    updateProfile(
+        displayName: String
+        dob: String
+        gender: Gender
+        learningPurpose: LearningPurpose
+        dailyMinutes: Int
+        startMode: StartMode
+    ): User!
+}
