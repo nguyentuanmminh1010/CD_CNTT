@@ -55,3 +55,7 @@ e_app/_p.js
 CLAUDE.md
 /docs
 /.claude
+
+# Dữ liệu gốc tải về + file trung gian khi dựng bộ nội dung (BackEnd/tools/content-build)
+BackEnd/tools/raw/
+BackEnd/tools/work/

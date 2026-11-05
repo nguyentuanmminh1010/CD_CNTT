@@ -1,0 +1,2042 @@
+{
+  "version": "2026-11-05-open-v1",
+  "category": "SENTENCE",
+  "sources": [
+    "Cặp câu Anh–Việt: Tatoeba (tatoeba.org), CC BY 2.0 FR — mã câu ghi ở trường source",
+    "Độ khó: tính theo độ dài câu và cấp CEFR-J của các từ trong câu"
+  ],
+  "topics": [
+    {
+      "name": "Chào hỏi & Làm quen",
+      "description": "Chào hỏi, hỏi thăm và tạm biệt",
+      "icon": "waving_hand_rounded",
+      "items": [
+        {
+          "term": "Good night. Sweet dreams.",
+          "phonetic": null,
+          "meaning": "Ngủ ngon. Chúc bạn nhiều giấc mơ đẹp.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:2194",
+            "meaning": "tatoeba:5938"
+          }
+        },
+        {
+          "term": "Hello, how are you?",
+          "phonetic": null,
+          "meaning": "Xin chào, bạn khỏe không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:138868",
+            "meaning": "tatoeba:11973450"
+          }
+        },
+        {
+          "term": "How have you been recently?",
+          "phonetic": null,
+          "meaning": "Dạo này bạn thế nào?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:372787",
+            "meaning": "tatoeba:9051350"
+          }
+        },
+        {
+          "term": "Hey, it's good to see you.",
+          "phonetic": null,
+          "meaning": "Rất vui được gặp bạn.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:3575357",
+            "meaning": "tatoeba:4456378"
+          }
+        },
+        {
+          "term": "I haven't seen you for a long time.",
+          "phonetic": null,
+          "meaning": "Lâu rồi tôi không gặp bạn.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:417009",
+            "meaning": "tatoeba:13726735"
+          }
+        },
+        {
+          "term": "It's been a long time since I last saw you.",
+          "phonetic": null,
+          "meaning": "Cũng lâu rồi kể từ khi tôi gặp bạn lần cuối.",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:12422505",
+            "meaning": "tatoeba:14028992"
+          }
+        },
+        {
+          "term": "How's everything at work?",
+          "phonetic": null,
+          "meaning": "Công việc của bạn như thế nào?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:3738105",
+            "meaning": "tatoeba:9003249"
+          }
+        },
+        {
+          "term": "Goodbye. See you tomorrow.",
+          "phonetic": null,
+          "meaning": "Tạm biệt. Hẹn gặp ngày mai.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:453072",
+            "meaning": "tatoeba:8774938"
+          }
+        },
+        {
+          "term": "I'll see you later.",
+          "phonetic": null,
+          "meaning": "Hẹn gặp lại bạn nhé.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:32706",
+            "meaning": "tatoeba:3121012"
+          }
+        },
+        {
+          "term": "You're always welcome here.",
+          "phonetic": null,
+          "meaning": "Bạn luôn được chào đón ở đây.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:2543873",
+            "meaning": "tatoeba:11364020"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Giới thiệu bản thân",
+      "description": "Tên, tuổi, quê quán, nghề nghiệp",
+      "icon": "badge_rounded",
+      "items": [
+        {
+          "term": "What's your name?",
+          "phonetic": null,
+          "meaning": "Tên bạn là gì?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:408293",
+            "meaning": "tatoeba:4950229"
+          }
+        },
+        {
+          "term": "How old are you?",
+          "phonetic": null,
+          "meaning": "Bạn bao nhiêu tuổi?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:436243",
+            "meaning": "tatoeba:4950225"
+          }
+        },
+        {
+          "term": "What do you do?",
+          "phonetic": null,
+          "meaning": "Bạn làm nghề gì?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:17125",
+            "meaning": "tatoeba:10670113"
+          }
+        },
+        {
+          "term": "Which country are you from?",
+          "phonetic": null,
+          "meaning": "Bạn đến từ nước nào vậy?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:329612",
+            "meaning": "tatoeba:5901"
+          }
+        },
+        {
+          "term": "What country do you live in?",
+          "phonetic": null,
+          "meaning": "Bạn sống ở đất nước nào?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:13838769",
+            "meaning": "tatoeba:13840939"
+          }
+        },
+        {
+          "term": "I am twenty years old.",
+          "phonetic": null,
+          "meaning": "Tôi hai mươi tuổi.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:5641941",
+            "meaning": "tatoeba:13519019"
+          }
+        },
+        {
+          "term": "I'm a student at Hanoi University.",
+          "phonetic": null,
+          "meaning": "Tôi là sinh viên trường Đại học Hà Nội.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:11356714",
+            "meaning": "tatoeba:11356716"
+          }
+        },
+        {
+          "term": "I live in an apartment.",
+          "phonetic": null,
+          "meaning": "Tôi sống trong một căn hộ.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:252968",
+            "meaning": "tatoeba:13769797"
+          }
+        },
+        {
+          "term": "I work at an office in a tall building.",
+          "phonetic": null,
+          "meaning": "Tôi làm việc tại một văn phòng trong một cao ốc.",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:11328503",
+            "meaning": "tatoeba:11328506"
+          }
+        },
+        {
+          "term": "I'm learning English.",
+          "phonetic": null,
+          "meaning": "Tôi đang học tiếng Anh.",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:1188743",
+            "meaning": "tatoeba:13726805"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gia đình & Bạn bè",
+      "description": "Nói về người thân và bạn bè",
+      "icon": "family_restroom_rounded",
+      "items": [
+        {
+          "term": "How many close friends do you have?",
+          "phonetic": null,
+          "meaning": "Bạn có bao nhiêu bạn thân?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:1354",
+            "meaning": "tatoeba:5698"
+          }
+        },
+        {
+          "term": "May I ask about your family?",
+          "phonetic": null,
+          "meaning": "Tôi có thể hỏi về gia đình bạn được không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:24088",
+            "meaning": "tatoeba:488951"
+          }
+        },
+        {
+          "term": "My mother is a high school teacher.",
+          "phonetic": null,
+          "meaning": "Mẹ tôi là giáo viên cấp 3.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:3050944",
+            "meaning": "tatoeba:10146674"
+          }
+        },
+        {
+          "term": "My father works in the food business.",
+          "phonetic": null,
+          "meaning": "Cha tôi làm việc trong ngành kinh doanh thực phẩm.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:11314548",
+            "meaning": "tatoeba:11314549"
+          }
+        },
+        {
+          "term": "Every evening, my family has dinner together.",
+          "phonetic": null,
+          "meaning": "Mỗi tối, gia đình tôi ăn tối cùng nhau.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:11333204",
+            "meaning": "tatoeba:11333207"
+          }
+        },
+        {
+          "term": "My mother cooks better than I do.",
+          "phonetic": null,
+          "meaning": "Mẹ tôi nấu ăn ngon hơn tôi.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:11450806",
+            "meaning": "tatoeba:11450808"
+          }
+        },
+        {
+          "term": "My grandmother is old but healthy.",
+          "phonetic": null,
+          "meaning": "Bà tôi già nhưng khỏe mạnh.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:11318210",
+            "meaning": "tatoeba:11318211"
+          }
+        },
+        {
+          "term": "We have the same group of friends.",
+          "phonetic": null,
+          "meaning": "Chúng ta có chung nhóm bạn.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:3361170",
+            "meaning": "tatoeba:6546691"
+          }
+        },
+        {
+          "term": "I want to visit a close friend.",
+          "phonetic": null,
+          "meaning": "Tôi muốn đến thăm một người bạn thân.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:11362822",
+            "meaning": "tatoeba:11362823"
+          }
+        },
+        {
+          "term": "I saw a friend of mine yesterday.",
+          "phonetic": null,
+          "meaning": "Hôm qua tôi đã trông thấy một người bạn của tôi.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:2406060",
+            "meaning": "tatoeba:9006148"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sở thích & Thời gian rảnh",
+      "description": "Sở thích, cuối tuần và giải trí",
+      "icon": "sports_soccer_rounded",
+      "items": [
+        {
+          "term": "What do you do in your free time?",
+          "phonetic": null,
+          "meaning": "Bạn làm gì trong thời gian rảnh?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:23957",
+            "meaning": "tatoeba:1552380"
+          }
+        },
+        {
+          "term": "What did you do on the weekend?",
+          "phonetic": null,
+          "meaning": "Bạn đã làm gì vào cuối tuần vậy?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:69229",
+            "meaning": "tatoeba:11452656"
+          }
+        },
+        {
+          "term": "I like to go to the movies.",
+          "phonetic": null,
+          "meaning": "Tôi thích đi xem phim.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:707451",
+            "meaning": "tatoeba:1551852"
+          }
+        },
+        {
+          "term": "Do you want to watch a movie?",
+          "phonetic": null,
+          "meaning": "Bạn có muốn đi xem phim không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:3350127",
+            "meaning": "tatoeba:13769848"
+          }
+        },
+        {
+          "term": "I like to play badminton and tennis.",
+          "phonetic": null,
+          "meaning": "Tôi thích chơi cầu lông và quần vợt.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:11363894",
+            "meaning": "tatoeba:11363895"
+          }
+        },
+        {
+          "term": "My hobby is taking pictures of wild flowers.",
+          "phonetic": null,
+          "meaning": "Sở thích của tôi là chụp những bức ảnh hoa dại.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:251151",
+            "meaning": "tatoeba:4274419"
+          }
+        },
+        {
+          "term": "My hobby is collecting old coins.",
+          "phonetic": null,
+          "meaning": "Sở thích của tôi là sưu tập những đồng xu cổ.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:321510",
+            "meaning": "tatoeba:13726778"
+          }
+        },
+        {
+          "term": "I like music better than sports.",
+          "phonetic": null,
+          "meaning": "Tôi thích âm nhạc hơn là thể thao.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:254036",
+            "meaning": "tatoeba:5147975"
+          }
+        },
+        {
+          "term": "In my opinion, soccer is a great sport.",
+          "phonetic": null,
+          "meaning": "Theo ý tôi, đá banh là môn thể thao tuyệt vời.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:54115",
+            "meaning": "tatoeba:934993"
+          }
+        },
+        {
+          "term": "We are listening to music, and you?",
+          "phonetic": null,
+          "meaning": "Chúng tôi đang nghe nhạc, còn bạn thì sao?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:13524649",
+            "meaning": "tatoeba:13525711"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ăn uống & Nhà hàng",
+      "description": "Gọi món, mời ăn uống, khẩu vị",
+      "icon": "restaurant_menu_rounded",
+      "items": [
+        {
+          "term": "Would you like something to drink?",
+          "phonetic": null,
+          "meaning": "Bạn có muốn thức uống gì không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:1504",
+            "meaning": "tatoeba:10557698"
+          }
+        },
+        {
+          "term": "What would you like to drink?",
+          "phonetic": null,
+          "meaning": "Bạn muốn uống gì?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:24765",
+            "meaning": "tatoeba:10274134"
+          }
+        },
+        {
+          "term": "What would you like to eat?",
+          "phonetic": null,
+          "meaning": "Bạn muốn ăn gì?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:400191",
+            "meaning": "tatoeba:4950228"
+          }
+        },
+        {
+          "term": "Could I have one more coffee, please?",
+          "phonetic": null,
+          "meaning": "Cho tôi xin thêm một ít cà phê được không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:62214",
+            "meaning": "tatoeba:5911247"
+          }
+        },
+        {
+          "term": "I'd like a little more water.",
+          "phonetic": null,
+          "meaning": "Tôi muốn thêm một ít nước.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:3868383",
+            "meaning": "tatoeba:5763143"
+          }
+        },
+        {
+          "term": "Would you like some sugar in your tea?",
+          "phonetic": null,
+          "meaning": "Bạn có muốn thêm đường vào trà không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:1105358",
+            "meaning": "tatoeba:1554972"
+          }
+        },
+        {
+          "term": "My tea is a little too sweet.",
+          "phonetic": null,
+          "meaning": "Tách trà của tôi hơi ngọt một chút.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:3817582",
+            "meaning": "tatoeba:5147641"
+          }
+        },
+        {
+          "term": "I can eat anything but onions.",
+          "phonetic": null,
+          "meaning": "Tôi ăn gì cũng được, trừ hành tây ra.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:254987",
+            "meaning": "tatoeba:13841065"
+          }
+        },
+        {
+          "term": "Where are we going to eat today?",
+          "phonetic": null,
+          "meaning": "Hôm nay chúng ta sẽ đi ăn ở đâu đây?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:13496002",
+            "meaning": "tatoeba:13496531"
+          }
+        },
+        {
+          "term": "I always have coffee and toast for breakfast.",
+          "phonetic": null,
+          "meaning": "Tôi luôn dùng cà phê và bánh mì nướng trong bữa sáng.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:277792",
+            "meaning": "tatoeba:1548758"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mua sắm",
+      "description": "Hỏi giá, chọn hàng và thanh toán",
+      "icon": "local_mall_rounded",
+      "items": [
+        {
+          "term": "How much is that?",
+          "phonetic": null,
+          "meaning": "Cái đó bao nhiêu tiền?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:1885879",
+            "meaning": "tatoeba:11277713"
+          }
+        },
+        {
+          "term": "How much are these trousers?",
+          "phonetic": null,
+          "meaning": "Chiếc quần tây này giá bao nhiêu?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:11277689",
+            "meaning": "tatoeba:11277690"
+          }
+        },
+        {
+          "term": "What would you like to buy?",
+          "phonetic": null,
+          "meaning": "Anh muốn mua gì?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:2485314",
+            "meaning": "tatoeba:4611353"
+          }
+        },
+        {
+          "term": "I think that's a little too expensive.",
+          "phonetic": null,
+          "meaning": "Tôi nghĩ là cái đó hơi đắt.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:5909701",
+            "meaning": "tatoeba:8976390"
+          }
+        },
+        {
+          "term": "Could you show me another one?",
+          "phonetic": null,
+          "meaning": "Bạn có thể cho tôi xem cái khác được không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:274630",
+            "meaning": "tatoeba:9726044"
+          }
+        },
+        {
+          "term": "Can I pay later?",
+          "phonetic": null,
+          "meaning": "Tôi có thể trả sau được không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:5336539",
+            "meaning": "tatoeba:13666178"
+          }
+        },
+        {
+          "term": "I usually use a credit card instead of cash.",
+          "phonetic": null,
+          "meaning": "Bình thường tôi không dùng tiền mặt mà tôi dùng thẻ tín dụng.",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:5904763",
+            "meaning": "tatoeba:8995663"
+          }
+        },
+        {
+          "term": "No thank you, I don't need a plastic bag.",
+          "phonetic": null,
+          "meaning": "Không, cảm ơn. Tôi không cần túi bóng.",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:1335215",
+            "meaning": "tatoeba:14029213"
+          }
+        },
+        {
+          "term": "Where do you usually do the shopping?",
+          "phonetic": null,
+          "meaning": "Bạn thường đi mua sắm ở đâu?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:14083005",
+            "meaning": "tatoeba:14083101"
+          }
+        },
+        {
+          "term": "I need to buy a gift for him.",
+          "phonetic": null,
+          "meaning": "Tôi cần mua một món quà cho anh ấy.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:3917720",
+            "meaning": "tatoeba:5142815"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hỏi đường & Đi lại",
+      "description": "Hỏi đường, chỉ đường và phương tiện",
+      "icon": "signpost_rounded",
+      "items": [
+        {
+          "term": "How do I get to the train station?",
+          "phonetic": null,
+          "meaning": "Tôi có thể đi đến ga xe lửa bằng cách nào?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:1655633",
+            "meaning": "tatoeba:3681274"
+          }
+        },
+        {
+          "term": "Is this the way to the station?",
+          "phonetic": null,
+          "meaning": "Đường này có dẫn đến nhà ga không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:3097534",
+            "meaning": "tatoeba:9038109"
+          }
+        },
+        {
+          "term": "Where is the bathroom?",
+          "phonetic": null,
+          "meaning": "Nhà vệ sinh ở đâu vậy?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:2136",
+            "meaning": "tatoeba:5919"
+          }
+        },
+        {
+          "term": "What's the name of this street, please?",
+          "phonetic": null,
+          "meaning": "Xin cho biết tên phố này là gì?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:61662",
+            "meaning": "tatoeba:510405"
+          }
+        },
+        {
+          "term": "Turn left at the next corner.",
+          "phonetic": null,
+          "meaning": "Hãy rẽ trái ở góc phố tới.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:264209",
+            "meaning": "tatoeba:510426"
+          }
+        },
+        {
+          "term": "Turn right at the traffic light.",
+          "phonetic": null,
+          "meaning": "Rẽ phải ở chỗ đèn giao thông.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:9434177",
+            "meaning": "tatoeba:13565129"
+          }
+        },
+        {
+          "term": "My house is not far from here.",
+          "phonetic": null,
+          "meaning": "Nhà tôi cách đây không xa.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:11317048",
+            "meaning": "tatoeba:11317049"
+          }
+        },
+        {
+          "term": "Where do I get the bus?",
+          "phonetic": null,
+          "meaning": "Tôi có thể đón xe buýt ở đâu?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:38190",
+            "meaning": "tatoeba:1563750"
+          }
+        },
+        {
+          "term": "Can I catch a taxi here?",
+          "phonetic": null,
+          "meaning": "Tôi có thể bắt taxi ở đây không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:61996",
+            "meaning": "tatoeba:9039853"
+          }
+        },
+        {
+          "term": "I was on the wrong bus.",
+          "phonetic": null,
+          "meaning": "Tôi lên nhầm chuyến xe buýt.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:5900634",
+            "meaning": "tatoeba:13249740"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Du lịch & Khách sạn",
+      "description": "Đặt phòng, nhận phòng và đi du lịch",
+      "icon": "hotel_rounded",
+      "items": [
+        {
+          "term": "I'd like a hotel reservation.",
+          "phonetic": null,
+          "meaning": "Tôi muốn đặt phòng khách sạn.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:33360",
+            "meaning": "tatoeba:510388"
+          }
+        },
+        {
+          "term": "I'd like a twin room, please.",
+          "phonetic": null,
+          "meaning": "Cho tôi một phòng hai người.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:280945",
+            "meaning": "tatoeba:9629934"
+          }
+        },
+        {
+          "term": "What is my room number?",
+          "phonetic": null,
+          "meaning": "Số phòng của tôi là số nào?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:464588",
+            "meaning": "tatoeba:593009"
+          }
+        },
+        {
+          "term": "Which hotel will you be staying at?",
+          "phonetic": null,
+          "meaning": "Bạn sẽ ở khách sạn nào?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:6436473",
+            "meaning": "tatoeba:9704827"
+          }
+        },
+        {
+          "term": "Will you show me your passport, please?",
+          "phonetic": null,
+          "meaning": "Xin ông vui lòng cho tôi xem hộ chiếu của ông.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:35272",
+            "meaning": "tatoeba:510398"
+          }
+        },
+        {
+          "term": "Did you lock your suitcase?",
+          "phonetic": null,
+          "meaning": "Bạn khóa vali chưa?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:7976624",
+            "meaning": "tatoeba:8854547"
+          }
+        },
+        {
+          "term": "What did you do last vacation?",
+          "phonetic": null,
+          "meaning": "Kỳ nghỉ vừa rồi bạn đã làm gì?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:480006",
+            "meaning": "tatoeba:1575830"
+          }
+        },
+        {
+          "term": "Have you ever traveled abroad?",
+          "phonetic": null,
+          "meaning": "Bạn đã đi du lịch nước ngoài bao giờ chưa?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:12207616",
+            "meaning": "tatoeba:13173277"
+          }
+        },
+        {
+          "term": "I want to travel around the world.",
+          "phonetic": null,
+          "meaning": "Tôi muốn đi vòng quanh thế giới.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:271162",
+            "meaning": "tatoeba:10265381"
+          }
+        },
+        {
+          "term": "We had a wonderful holiday.",
+          "phonetic": null,
+          "meaning": "Chúng tôi đã có một kỳ nghỉ tuyệt vời.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:51858",
+            "meaning": "tatoeba:5159933"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Công việc & Văn phòng",
+      "description": "Giao tiếp nơi công sở",
+      "icon": "business_center_rounded",
+      "items": [
+        {
+          "term": "I have been very busy this week.",
+          "phonetic": null,
+          "meaning": "Tuần này tôi rất bận.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:242094",
+            "meaning": "tatoeba:2639271"
+          }
+        },
+        {
+          "term": "I must hand in the report today.",
+          "phonetic": null,
+          "meaning": "Tôi phải bàn giao báo cáo hôm nay.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:243008",
+            "meaning": "tatoeba:1578973"
+          }
+        },
+        {
+          "term": "When can you send me the report?",
+          "phonetic": null,
+          "meaning": "Bao giờ thì bạn có thể gửi báo cáo cho tôi?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:13451455",
+            "meaning": "tatoeba:10290280"
+          }
+        },
+        {
+          "term": "We must finish this report today.",
+          "phonetic": null,
+          "meaning": "Hôm nay chúng ta phải làm xong báo cáo.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:13886915",
+            "meaning": "tatoeba:13888075"
+          }
+        },
+        {
+          "term": "I suggested that the meeting be put off.",
+          "phonetic": null,
+          "meaning": "Tôi đề nghị hoãn cuộc họp.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:254262",
+            "meaning": "tatoeba:713707"
+          }
+        },
+        {
+          "term": "I called her office, but no one answered.",
+          "phonetic": null,
+          "meaning": "Tôi đã gọi đến văn phòng của cô ấy, nhưng không ai trả lời.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:261271",
+            "meaning": "tatoeba:10274135"
+          }
+        },
+        {
+          "term": "Are you satisfied with your job?",
+          "phonetic": null,
+          "meaning": "Bạn có hài lòng với công việc của mình không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:70314",
+            "meaning": "tatoeba:11273262"
+          }
+        },
+        {
+          "term": "Would you like to work full-time or part-time?",
+          "phonetic": null,
+          "meaning": "Bạn muốn làm việc toàn thời gian hay bán thời gian?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:13928920",
+            "meaning": "tatoeba:13929052"
+          }
+        },
+        {
+          "term": "You need to organize your work more carefully.",
+          "phonetic": null,
+          "meaning": "Bạn cần phải sắp xếp công việc của mình một cách cẩn thận hơn.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:11374570",
+            "meaning": "tatoeba:11374579"
+          }
+        },
+        {
+          "term": "How many people work for you?",
+          "phonetic": null,
+          "meaning": "Có bao nhiêu người làm việc cho bạn?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:2912515",
+            "meaning": "tatoeba:11266537"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Học tập",
+      "description": "Trường lớp, bài tập và việc học",
+      "icon": "school_rounded",
+      "items": [
+        {
+          "term": "What subjects are you studying at school?",
+          "phonetic": null,
+          "meaning": "Bạn đang học những môn gì trên trường?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:13892555",
+            "meaning": "tatoeba:13896443"
+          }
+        },
+        {
+          "term": "I have a lot of homework to do.",
+          "phonetic": null,
+          "meaning": "Tôi có nhiều bài tập phải làm.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:30181",
+            "meaning": "tatoeba:9006419"
+          }
+        },
+        {
+          "term": "Finish your homework before you go to bed.",
+          "phonetic": null,
+          "meaning": "Làm xong bài tập trước khi đi ngủ đấy.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:268912",
+            "meaning": "tatoeba:5763262"
+          }
+        },
+        {
+          "term": "You must learn from your mistakes.",
+          "phonetic": null,
+          "meaning": "Bạn cần phải học hỏi từ sai lầm của bản thân.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:754023",
+            "meaning": "tatoeba:9029818"
+          }
+        },
+        {
+          "term": "I borrow books from the city library.",
+          "phonetic": null,
+          "meaning": "Tôi đang mượn sách ở thư viện thành phố.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:2792348",
+            "meaning": "tatoeba:8991724"
+          }
+        },
+        {
+          "term": "Are you a teacher or a student?",
+          "phonetic": null,
+          "meaning": "Bạn là giáo viên hay là học sinh?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:370763",
+            "meaning": "tatoeba:9013902"
+          }
+        },
+        {
+          "term": "I finally graduated from junior high school.",
+          "phonetic": null,
+          "meaning": "Cuối cùng tôi đã tốt nghiệp cấp hai.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:1477313",
+            "meaning": "tatoeba:9726058"
+          }
+        },
+        {
+          "term": "Do you remember your first teacher's name?",
+          "phonetic": null,
+          "meaning": "Bạn có nhớ tên người thầy đầu tiên của bạn không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:6225471",
+            "meaning": "tatoeba:10670110"
+          }
+        },
+        {
+          "term": "I study from eight to eleven.",
+          "phonetic": null,
+          "meaning": "Tôi học từ lúc tám giờ đến mười một giờ.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:252626",
+            "meaning": "tatoeba:13769764"
+          }
+        },
+        {
+          "term": "I go to school every day by bus.",
+          "phonetic": null,
+          "meaning": "Tôi đi học mỗi ngày bằng xe buýt.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:535041",
+            "meaning": "tatoeba:11330570"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sức khoẻ",
+      "description": "Ốm đau, đi khám và giữ gìn sức khoẻ",
+      "icon": "favorite_rounded",
+      "items": [
+        {
+          "term": "I seem to have a fever.",
+          "phonetic": null,
+          "meaning": "Có vẻ như tôi bị sốt.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:38381",
+            "meaning": "tatoeba:5149403"
+          }
+        },
+        {
+          "term": "Do you have a fever?",
+          "phonetic": null,
+          "meaning": "Bạn có bị sốt không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:433669",
+            "meaning": "tatoeba:9165698"
+          }
+        },
+        {
+          "term": "I have a bit of a headache today.",
+          "phonetic": null,
+          "meaning": "Hôm nay có hơi bị đau đầu.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:9408766",
+            "meaning": "tatoeba:11475756"
+          }
+        },
+        {
+          "term": "I need some medicine because I have a headache.",
+          "phonetic": null,
+          "meaning": "Tôi cần một ít thuốc vì tôi bị đau đầu.",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:11338382",
+            "meaning": "tatoeba:11338384"
+          }
+        },
+        {
+          "term": "Please remind me to take my medicine.",
+          "phonetic": null,
+          "meaning": "Làm ơn nhắc tôi uống thuốc.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:10784781",
+            "meaning": "tatoeba:11434717"
+          }
+        },
+        {
+          "term": "You should follow the doctor's advice.",
+          "phonetic": null,
+          "meaning": "Bạn nên làm theo lời bác sĩ.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:16315",
+            "meaning": "tatoeba:13769779"
+          }
+        },
+        {
+          "term": "It is necessary that you see a doctor.",
+          "phonetic": null,
+          "meaning": "Bạn cần phải đi gặp bác sĩ.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:28041",
+            "meaning": "tatoeba:13726688"
+          }
+        },
+        {
+          "term": "I stayed home because I was sick.",
+          "phonetic": null,
+          "meaning": "Tôi ở nhà vì tôi bị ốm.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:10777864",
+            "meaning": "tatoeba:13599551"
+          }
+        },
+        {
+          "term": "Staying up late is harmful to your health.",
+          "phonetic": null,
+          "meaning": "Thức khuya có hại cho sức khỏe.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:1510783",
+            "meaning": "tatoeba:1510782"
+          }
+        },
+        {
+          "term": "I hope that you get better soon.",
+          "phonetic": null,
+          "meaning": "Tôi hy vọng rằng bạn sẽ sớm khỏe lại.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:6784134",
+            "meaning": "tatoeba:10291524"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thời tiết",
+      "description": "Nói về thời tiết hôm nay và ngày mai",
+      "icon": "wb_sunny_rounded",
+      "items": [
+        {
+          "term": "I wonder what the weather will be like tomorrow.",
+          "phonetic": null,
+          "meaning": "Không biết thời tiết ngày mai sẽ thế nào đây nhỉ?",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:323448",
+            "meaning": "tatoeba:9003255"
+          }
+        },
+        {
+          "term": "I don't think it will rain tomorrow.",
+          "phonetic": null,
+          "meaning": "Tôi không nghĩ mai trời sẽ mưa đâu.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:5123834",
+            "meaning": "tatoeba:9722849"
+          }
+        },
+        {
+          "term": "Bring your umbrella because it's raining.",
+          "phonetic": null,
+          "meaning": "Hãy mang theo dù của bạn vì trời đang mưa đấy.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:11303152",
+            "meaning": "tatoeba:11303154"
+          }
+        },
+        {
+          "term": "Can I borrow your umbrella?",
+          "phonetic": null,
+          "meaning": "Tôi mượn cái ô của bạn có được không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:70644",
+            "meaning": "tatoeba:9419185"
+          }
+        },
+        {
+          "term": "We had to stay home because of the storm.",
+          "phonetic": null,
+          "meaning": "Vì cơn bão nên chúng tôi đành phải ở nhà.",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:1428036",
+            "meaning": "tatoeba:9004367"
+          }
+        },
+        {
+          "term": "It is very hot here in summer.",
+          "phonetic": null,
+          "meaning": "Mùa hè ở đây rất nóng.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:79464",
+            "meaning": "tatoeba:13870235"
+          }
+        },
+        {
+          "term": "The weather is sunny and nice today.",
+          "phonetic": null,
+          "meaning": "Hôm nay thời tiết nắng đẹp.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:11276046",
+            "meaning": "tatoeba:11276047"
+          }
+        },
+        {
+          "term": "It's not as cold here as I expected.",
+          "phonetic": null,
+          "meaning": "Trời ở đây không lạnh như tôi nghĩ.",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:5851425",
+            "meaning": "tatoeba:13342815"
+          }
+        },
+        {
+          "term": "It's been raining for around a week.",
+          "phonetic": null,
+          "meaning": "Trời mưa khoảng 1 tuần nay rồi.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:33150",
+            "meaning": "tatoeba:1563752"
+          }
+        },
+        {
+          "term": "It was snowing when I woke up.",
+          "phonetic": null,
+          "meaning": "Trời đang đổ tuyết khi tôi thức dậy.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:456163",
+            "meaning": "tatoeba:13249710"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Điện thoại & Hẹn gặp",
+      "description": "Gọi điện, nhắn lời và hẹn lịch",
+      "icon": "call_rounded",
+      "items": [
+        {
+          "term": "I think you have the wrong number.",
+          "phonetic": null,
+          "meaning": "Chắc bạn nhầm số rồi.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:282837",
+            "meaning": "tatoeba:9741771"
+          }
+        },
+        {
+          "term": "Could you call again later, please?",
+          "phonetic": null,
+          "meaning": "Bạn có thể gọi lại được không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:1824",
+            "meaning": "tatoeba:5845"
+          }
+        },
+        {
+          "term": "I'll call you back in about thirty minutes.",
+          "phonetic": null,
+          "meaning": "Tôi sẽ gọi lại trong vòng 30 phút nữa.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:2538238",
+            "meaning": "tatoeba:5160029"
+          }
+        },
+        {
+          "term": "Hello. Could I speak to Tom Jackson?",
+          "phonetic": null,
+          "meaning": "Xin chào. Tôi có thể nói chuyện với Tom Jackson được không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:7120770",
+            "meaning": "tatoeba:9031432"
+          }
+        },
+        {
+          "term": "Could I please use your phone?",
+          "phonetic": null,
+          "meaning": "Tôi có thể dùng điện thoại của bạn được không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:453601",
+            "meaning": "tatoeba:1564358"
+          }
+        },
+        {
+          "term": "I have an appointment at three.",
+          "phonetic": null,
+          "meaning": "Tôi có một cuộc hẹn lúc ba giờ.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:3444808",
+            "meaning": "tatoeba:5145607"
+          }
+        },
+        {
+          "term": "Do you have any plans for tomorrow?",
+          "phonetic": null,
+          "meaning": "Mai bạn có dự định gì không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:1064227",
+            "meaning": "tatoeba:9740853"
+          }
+        },
+        {
+          "term": "Do you have time the day after tomorrow?",
+          "phonetic": null,
+          "meaning": "Ngày kia bạn có thời gian không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:71871",
+            "meaning": "tatoeba:9010997"
+          }
+        },
+        {
+          "term": "What do you want to do tonight?",
+          "phonetic": null,
+          "meaning": "Tối nay bạn muốn làm gì?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:1956119",
+            "meaning": "tatoeba:5162227"
+          }
+        },
+        {
+          "term": "What time does the party start?",
+          "phonetic": null,
+          "meaning": "Buổi tiệc bắt đầu lúc mấy giờ?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:4013222",
+            "meaning": "tatoeba:5759030"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cảm xúc & Ý kiến",
+      "description": "Bày tỏ cảm xúc, hy vọng và quan điểm",
+      "icon": "emoji_emotions_rounded",
+      "items": [
+        {
+          "term": "I hope that you will like it.",
+          "phonetic": null,
+          "meaning": "Hy vọng bạn thích nó.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:71573",
+            "meaning": "tatoeba:1542986"
+          }
+        },
+        {
+          "term": "I think that's a really bad idea.",
+          "phonetic": null,
+          "meaning": "Tôi nghĩ đó là một ý tưởng thực sự rất tệ.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:2712945",
+            "meaning": "tatoeba:11449257"
+          }
+        },
+        {
+          "term": "I think I did the right thing.",
+          "phonetic": null,
+          "meaning": "Tôi nghĩ tôi đã làm một việc đúng.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:2407754",
+            "meaning": "tatoeba:4787885"
+          }
+        },
+        {
+          "term": "I hope you had a wonderful day.",
+          "phonetic": null,
+          "meaning": "Tôi hy vọng bạn đã có một ngày tuyệt vời.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:1321685",
+            "meaning": "tatoeba:11426570"
+          }
+        },
+        {
+          "term": "I was too surprised to speak.",
+          "phonetic": null,
+          "meaning": "Tôi đã không thể nói nên lời vì quá ngạc nhiên.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:18882",
+            "meaning": "tatoeba:8949939"
+          }
+        },
+        {
+          "term": "I wonder why she is so worried.",
+          "phonetic": null,
+          "meaning": "Tôi tự hỏi vì sao cô ấy lại lo lắng đến vậy.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:308113",
+            "meaning": "tatoeba:9064473"
+          }
+        },
+        {
+          "term": "You should not be afraid of the future.",
+          "phonetic": null,
+          "meaning": "Bạn không nên sợ hãi về tương lai.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:1184694",
+            "meaning": "tatoeba:6564798"
+          }
+        },
+        {
+          "term": "I think we can do a lot better.",
+          "phonetic": null,
+          "meaning": "Mình nghĩ bọn mình có thể làm tốt hơn rất nhiều.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:5651022",
+            "meaning": "tatoeba:5763258"
+          }
+        },
+        {
+          "term": "You don't seem too happy to see me.",
+          "phonetic": null,
+          "meaning": "Bạn có vẻ không được vui lắm khi thấy tôi.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:2591706",
+            "meaning": "tatoeba:9034118"
+          }
+        },
+        {
+          "term": "I think this will change your life.",
+          "phonetic": null,
+          "meaning": "Tôi nghĩ điều này sẽ thay đổi cuộc sống của bạn.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:6474829",
+            "meaning": "tatoeba:10267742"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lời mời & Đề nghị",
+      "description": "Mời, rủ rê và nhờ giúp đỡ lịch sự",
+      "icon": "chat_bubble_rounded",
+      "items": [
+        {
+          "term": "Would you like to play with us?",
+          "phonetic": null,
+          "meaning": "Bạn có muốn chơi với chúng tôi không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:682289",
+            "meaning": "tatoeba:4932042"
+          }
+        },
+        {
+          "term": "If you have time, let's go shopping.",
+          "phonetic": null,
+          "meaning": "Nếu bạn có thời gian, hãy đi mua sắm.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:400597",
+            "meaning": "tatoeba:13173484"
+          }
+        },
+        {
+          "term": "Let's go meet some of my friends.",
+          "phonetic": null,
+          "meaning": "Hãy cùng đi gặp một số bạn bè của tôi.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:2518523",
+            "meaning": "tatoeba:11432298"
+          }
+        },
+        {
+          "term": "Why don't we all do that together?",
+          "phonetic": null,
+          "meaning": "Sao tất cả chúng ta không làm điều đó cùng nhau nhỉ?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:6126352",
+            "meaning": "tatoeba:8961985"
+          }
+        },
+        {
+          "term": "Could you give me some advice?",
+          "phonetic": null,
+          "meaning": "Bạn có thể cho tôi vài lời khuyên được không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:39965",
+            "meaning": "tatoeba:8997652"
+          }
+        },
+        {
+          "term": "Can you save a seat for me?",
+          "phonetic": null,
+          "meaning": "Bạn có thể để dành một chỗ ngồi cho tôi không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:3321167",
+            "meaning": "tatoeba:3333608"
+          }
+        },
+        {
+          "term": "Would you mind shutting the door?",
+          "phonetic": null,
+          "meaning": "Bạn đóng cửa giúp tôi được không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:38988",
+            "meaning": "tatoeba:9023420"
+          }
+        },
+        {
+          "term": "Would you please wait for a few minutes?",
+          "phonetic": null,
+          "meaning": "Anh vui lòng chờ một lát được không ạ.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:267691",
+            "meaning": "tatoeba:11584701"
+          }
+        },
+        {
+          "term": "Can you give me an example?",
+          "phonetic": null,
+          "meaning": "Bạn có thể cho tôi một ví dụ không?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:490674",
+            "meaning": "tatoeba:490676"
+          }
+        },
+        {
+          "term": "Could you help me exchange some money?",
+          "phonetic": null,
+          "meaning": "Bạn có thể giúp tôi đổi một chút tiền được không?",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:4895545",
+            "meaning": "tatoeba:5148019"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cảm ơn & Xin lỗi",
+      "description": "Cảm ơn, xin lỗi và đáp lời lịch sự",
+      "icon": "volunteer_activism_rounded",
+      "items": [
+        {
+          "term": "Thank you very much.",
+          "phonetic": null,
+          "meaning": "Cảm ơn bạn rất nhiều.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:1839560",
+            "meaning": "tatoeba:13522885"
+          }
+        },
+        {
+          "term": "Thank you for inviting me to the party.",
+          "phonetic": null,
+          "meaning": "Cảm ơn bạn vì đã mời tôi đến dự bữa tiệc này.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:35673",
+            "meaning": "tatoeba:5642124"
+          }
+        },
+        {
+          "term": "I don't know how to thank you enough.",
+          "phonetic": null,
+          "meaning": "Tôi không biết làm thế nào để cảm ơn bạn đủ.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:63873",
+            "meaning": "tatoeba:3455671"
+          }
+        },
+        {
+          "term": "Thank you for all your help over the years.",
+          "phonetic": null,
+          "meaning": "Cảm ơn tất cả sự giúp đỡ của bạn trong những năm qua.",
+          "example": null,
+          "explanation": null,
+          "level": 3,
+          "source": {
+            "example": "tatoeba:10775525",
+            "meaning": "tatoeba:11449217"
+          }
+        },
+        {
+          "term": "Thanks for your explanation.",
+          "phonetic": null,
+          "meaning": "Cảm ơn lời giải thích của bạn.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:1403",
+            "meaning": "tatoeba:8974571"
+          }
+        },
+        {
+          "term": "I apologize for what happened yesterday.",
+          "phonetic": null,
+          "meaning": "Tôi xin lỗi về chuyện hôm qua.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:8945563",
+            "meaning": "tatoeba:8945626"
+          }
+        },
+        {
+          "term": "I'm really sorry to make you wait.",
+          "phonetic": null,
+          "meaning": "Thực sự xin lỗi đã khiến bạn phải chờ.",
+          "example": null,
+          "explanation": null,
+          "level": 2,
+          "source": {
+            "example": "tatoeba:3537633",
+            "meaning": "tatoeba:5148644"
+          }
+        },
+        {
+          "term": "I'm sorry for the late response.",
+          "phonetic": null,
+          "meaning": "Tôi xin lỗi vì đã trả lời trễ.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:1039687",
+            "meaning": "tatoeba:4950224"
+          }
+        },
+        {
+          "term": "I'm sorry, but I don't understand.",
+          "phonetic": null,
+          "meaning": "Rất tiếc, nhưng tôi không hiểu.",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:2361909",
+            "meaning": "tatoeba:4950209"
+          }
+        },
+        {
+          "term": "I beg your pardon?",
+          "phonetic": null,
+          "meaning": "Ông có thể nói lại một lần nữa được không ạ?",
+          "example": null,
+          "explanation": null,
+          "level": 1,
+          "source": {
+            "example": "tatoeba:24940",
+            "meaning": "tatoeba:9039854"
+          }
+        }
+      ]
+    }
+  ]
+}

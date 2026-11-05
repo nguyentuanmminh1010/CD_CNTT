@@ -44,7 +44,6 @@ IconData topicIconFor(String? key) {
       return Icons.style_rounded;
     case 'rule_rounded':
       return Icons.rule_rounded;
-    // Chủ đề ngữ pháp bổ sung (ContentSupplementSeeder).
     case 'gavel_rounded':
       return Icons.gavel_rounded;
     case 'link_rounded':
@@ -71,6 +70,23 @@ IconData topicIconFor(String? key) {
       return Icons.business_center_rounded;
     case 'call_rounded':
       return Icons.call_rounded;
+    // Chủ đề của bộ nội dung mở (BackEnd/src/main/resources/content/*.json).
+    case 'family_restroom_rounded':
+      return Icons.family_restroom_rounded;
+    case 'hotel_rounded':
+      return Icons.hotel_rounded;
+    case 'event_rounded':
+      return Icons.event_rounded;
+    case 'local_shipping_rounded':
+      return Icons.local_shipping_rounded;
+    case 'sports_soccer_rounded':
+      return Icons.sports_soccer_rounded;
+    case 'person_rounded':
+      return Icons.person_rounded;
+    case 'quiz_rounded':
+      return Icons.quiz_rounded;
+    case 'volunteer_activism_rounded':
+      return Icons.volunteer_activism_rounded;
     default:
       return Icons.style_rounded;
   }

@@ -1,0 +1,1404 @@
+{
+  "version": "2026-11-05-open-v1",
+  "category": "GRAMMAR",
+  "sources": [
+    "Giải thích tiếng Việt và câu ví dụ: biên soạn cho Learn E",
+    "Độ khó: CEFR-J Grammar Profile 20180315 (Tono Laboratory, TUFS), github.com/openlanguageprofiles/olp-en-cefrj — mã mục ghi ở trường source.cefrj"
+  ],
+  "topics": [
+    {
+      "name": "Thì hiện tại",
+      "description": "Hiện tại đơn, hiện tại tiếp diễn, hiện tại hoàn thành",
+      "icon": "schedule_rounded",
+      "items": [
+        {
+          "term": "Present Simple",
+          "phonetic": null,
+          "meaning": "Diễn tả thói quen, sự thật hiển nhiên",
+          "example": "She works at a bank every day.",
+          "explanation": "S + V(s/es). Ngôi thứ ba số ít thêm -s/-es (works, watches). Hay đi với always, usually, often, every day.",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PRESENT.do.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Present Simple - negatives & questions",
+          "phonetic": null,
+          "meaning": "Câu phủ định và câu hỏi của hiện tại đơn dùng trợ động từ do/does",
+          "example": "Does your brother like coffee?",
+          "explanation": "Phủ định: S + don't/doesn't + V. Câu hỏi: Do/Does + S + V? Sau does động từ không thêm -s.",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PRESENT.do.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Present Continuous",
+          "phonetic": null,
+          "meaning": "Diễn tả hành động đang diễn ra ngay lúc nói",
+          "example": "They are studying English right now.",
+          "explanation": "S + am/is/are + V-ing. Hay đi với now, right now, at the moment, Look!, Listen!",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PRPRG.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Present Continuous - future arrangements",
+          "phonetic": null,
+          "meaning": "Nói về kế hoạch đã sắp xếp chắc chắn trong tương lai gần",
+          "example": "I am meeting my manager tomorrow morning.",
+          "explanation": "S + am/is/are + V-ing + mốc thời gian tương lai (tomorrow, next week). Thường là lịch hẹn đã chốt với người khác.",
+          "level": 2,
+          "source": {
+            "cefrj": "TA.PRPRG.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Present Perfect",
+          "phonetic": null,
+          "meaning": "Hành động đã xảy ra, kết quả còn liên quan tới hiện tại",
+          "example": "I have already finished my homework.",
+          "explanation": "S + have/has + V3/ed. Không đi với mốc thời gian quá khứ cụ thể (yesterday, in 2020). Hay đi với already, yet, just.",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PRPF.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Present Perfect - for & since",
+          "phonetic": null,
+          "meaning": "Diễn tả trạng thái kéo dài từ quá khứ tới hiện tại",
+          "example": "We have lived in Hanoi since 2018.",
+          "explanation": "S + have/has + V3 + for + khoảng thời gian (for two years) / since + mốc thời gian (since 2020).",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PRPF.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Present Perfect - ever & never",
+          "phonetic": null,
+          "meaning": "Hỏi hoặc kể về trải nghiệm từ trước tới nay",
+          "example": "Have you ever been to Japan?",
+          "explanation": "Have you ever + V3? — S + have/has never + V3. Không nói thời điểm cụ thể của trải nghiệm.",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PRPF.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Present Perfect Continuous",
+          "phonetic": null,
+          "meaning": "Nhấn mạnh quá trình kéo dài liên tục tới hiện tại",
+          "example": "She has been waiting for an hour.",
+          "explanation": "S + have/has been + V-ing (+ for/since). Nhấn mạnh thời lượng, hành động có thể vẫn đang tiếp diễn.",
+          "level": 3,
+          "source": {
+            "cefrj": "TA.PRPFPRG.AFF",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Stative verbs",
+          "phonetic": null,
+          "meaning": "Động từ chỉ trạng thái thường không chia ở thì tiếp diễn",
+          "example": "I know the answer to this question.",
+          "explanation": "know, like, love, want, need, believe, understand, belong... dùng thì đơn: I know (không nói I am knowing).",
+          "level": 2,
+          "source": {
+            "cefrj": "TA.PRPRG.AFF",
+            "cefr": "A1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thì quá khứ",
+      "description": "Quá khứ đơn, quá khứ tiếp diễn, quá khứ hoàn thành",
+      "icon": "history_rounded",
+      "items": [
+        {
+          "term": "Past Simple",
+          "phonetic": null,
+          "meaning": "Hành động đã xảy ra và kết thúc tại thời điểm xác định trong quá khứ",
+          "example": "I visited my grandparents last weekend.",
+          "explanation": "S + V2/ed. Hay đi với yesterday, last week, ago, in 2010. Phủ định/câu hỏi: did not + V / Did + S + V?",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PAST.do.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Past Simple - irregular verbs",
+          "phonetic": null,
+          "meaning": "Nhiều động từ có dạng quá khứ bất quy tắc cần học thuộc",
+          "example": "She went to the market yesterday.",
+          "explanation": "go → went, eat → ate, buy → bought, see → saw, take → took... Không thêm -ed với các động từ này.",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PAST.do.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Past Simple of be",
+          "phonetic": null,
+          "meaning": "Quá khứ của động từ to be: was/were",
+          "example": "We were very tired after the trip.",
+          "explanation": "I/he/she/it + was; you/we/they + were. Phủ định: wasn't/weren't. Câu hỏi: Was/Were + S ...?",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PAST.be.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Past Continuous",
+          "phonetic": null,
+          "meaning": "Hành động đang diễn ra tại một thời điểm trong quá khứ",
+          "example": "At eight last night, I was watching TV.",
+          "explanation": "S + was/were + V-ing. Ví dụ mốc: at 8 p.m. yesterday, at that time.",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PASTPRG.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Past Continuous with when & while",
+          "phonetic": null,
+          "meaning": "Một hành động đang diễn ra thì hành động khác xen vào",
+          "example": "She was cooking when the phone rang.",
+          "explanation": "while + quá khứ tiếp diễn (hành động dài), when + quá khứ đơn (hành động ngắn xen vào).",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.PASTPRG.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Past Perfect",
+          "phonetic": null,
+          "meaning": "Hành động xảy ra trước một hành động khác trong quá khứ",
+          "example": "The train had left before we arrived.",
+          "explanation": "S + had + V3. Hành động xảy ra trước dùng quá khứ hoàn thành, hành động sau dùng quá khứ đơn.",
+          "level": 2,
+          "source": {
+            "cefrj": "TA.PASTPF.AFF",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Past Perfect Continuous",
+          "phonetic": null,
+          "meaning": "Nhấn mạnh quá trình kéo dài trước một mốc trong quá khứ",
+          "example": "They had been waiting for an hour when the bus came.",
+          "explanation": "S + had been + V-ing (+ for ...). Thường giải thích nguyên nhân của một tình huống trong quá khứ.",
+          "level": 3,
+          "source": {
+            "cefrj": "TA.PASTPFPRG.AFF",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Used to",
+          "phonetic": null,
+          "meaning": "Thói quen hoặc trạng thái trong quá khứ, nay không còn",
+          "example": "I used to play football every weekend.",
+          "explanation": "S + used to + V. Phủ định: didn't use to + V. Đừng nhầm với be used to + V-ing (quen với).",
+          "level": 2,
+          "source": {
+            "cefrj": "MD.used_to.AFF",
+            "cefr": "B1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thì tương lai",
+      "description": "Will, be going to và các cách nói về tương lai",
+      "icon": "update_rounded",
+      "items": [
+        {
+          "term": "Future Simple (will)",
+          "phonetic": null,
+          "meaning": "Quyết định ngay lúc nói, lời hứa hoặc dự đoán",
+          "example": "I will call you tomorrow.",
+          "explanation": "S + will + V. Phủ định: won't + V. Hay đi với I think, probably, maybe.",
+          "level": 1,
+          "source": {
+            "cefrj": "TA.FUT.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Be going to",
+          "phonetic": null,
+          "meaning": "Dự định đã có từ trước hoặc dự đoán dựa trên dấu hiệu",
+          "example": "We are going to travel next month.",
+          "explanation": "S + am/is/are going to + V. Dùng khi đã có kế hoạch hoặc có bằng chứng ở hiện tại.",
+          "level": 1,
+          "source": {
+            "cefrj": "MD.be_going_to.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Will vs Be going to",
+          "phonetic": null,
+          "meaning": "Phân biệt quyết định tức thời với kế hoạch hoặc dự đoán có căn cứ",
+          "example": "Look at those clouds! It's going to rain.",
+          "explanation": "will: quyết định lúc nói (I'll get it!). be going to: kế hoạch có sẵn hoặc dấu hiệu rõ ràng (Look at those clouds!).",
+          "level": 2,
+          "source": {
+            "cefrj": "MD.be_going_to.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Present Simple for timetables",
+          "phonetic": null,
+          "meaning": "Dùng hiện tại đơn cho lịch trình, thời khoá biểu cố định",
+          "example": "The train leaves at seven tomorrow morning.",
+          "explanation": "S + V(s/es) + mốc tương lai, dùng cho tàu xe, giờ chiếu phim, lịch học do người khác ấn định.",
+          "level": 2,
+          "source": {
+            "cefrj": "TA.PRESENT.do.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Be about to",
+          "phonetic": null,
+          "meaning": "Sự việc sắp sửa xảy ra ngay lập tức",
+          "example": "Hurry up, the film is about to start.",
+          "explanation": "S + am/is/are about to + V. Không đi kèm trạng từ thời gian cụ thể.",
+          "level": 2,
+          "source": {
+            "cefrj": "TO.be_about_to_do",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Future Continuous",
+          "phonetic": null,
+          "meaning": "Hành động sẽ đang diễn ra tại một thời điểm trong tương lai",
+          "example": "This time tomorrow, I will be flying to Hanoi.",
+          "explanation": "S + will be + V-ing. Ví dụ mốc: this time tomorrow, at 9 a.m. next Monday.",
+          "level": 3,
+          "source": {
+            "cefrj": "TA.FUTPRG.AFF",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Future Perfect",
+          "phonetic": null,
+          "meaning": "Hành động sẽ hoàn thành trước một thời điểm trong tương lai",
+          "example": "By next year, she will have graduated.",
+          "explanation": "S + will have + V3. Hay đi với by + mốc thời gian (by next year, by the time...).",
+          "level": 3,
+          "source": {
+            "cefrj": "TA.FUTPF.AFF",
+            "cefr": "B2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Danh từ, mạo từ & lượng từ",
+      "description": "Danh từ đếm được, a/an/the, some/any, much/many",
+      "icon": "text_fields_rounded",
+      "items": [
+        {
+          "term": "Countable & uncountable nouns",
+          "phonetic": null,
+          "meaning": "Phân biệt danh từ đếm được và không đếm được",
+          "example": "I need some information about the course.",
+          "explanation": "Đếm được có số nhiều (a book, two books). Không đếm được không có số nhiều, không dùng a/an (water, information, advice).",
+          "level": 1,
+          "source": {
+            "cefrj": "DT.a.an",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Article a/an",
+          "phonetic": null,
+          "meaning": "Dùng trước danh từ đếm được số ít, chưa xác định",
+          "example": "She bought an umbrella yesterday.",
+          "explanation": "a + phụ âm (a car, a university); an + nguyên âm (an apple, an hour). Dùng khi nhắc tới lần đầu.",
+          "level": 1,
+          "source": {
+            "cefrj": "DT.a.an",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Article the",
+          "phonetic": null,
+          "meaning": "Dùng khi người nghe đã biết rõ danh từ đang nói tới",
+          "example": "The book on the table is mine.",
+          "explanation": "the + danh từ đã nhắc trước đó, duy nhất (the sun) hoặc đã được xác định (the book on the table).",
+          "level": 1,
+          "source": {
+            "cefrj": "DT.the",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Zero article",
+          "phonetic": null,
+          "meaning": "Không dùng mạo từ khi nói chung chung",
+          "example": "Dogs are loyal animals.",
+          "explanation": "Không dùng mạo từ với danh từ số nhiều hoặc không đếm được mang nghĩa chung, với bữa ăn, môn học, tên riêng.",
+          "level": 2,
+          "source": {
+            "cefrj": "DT.the",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Some & Any",
+          "phonetic": null,
+          "meaning": "Chỉ một số lượng không xác định",
+          "example": "We don't have any milk left.",
+          "explanation": "some: câu khẳng định và lời mời/đề nghị. any: câu phủ định và câu hỏi.",
+          "level": 1,
+          "source": {
+            "cefrj": "DT.some.any",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Much & Many",
+          "phonetic": null,
+          "meaning": "Hỏi hoặc nói về số lượng nhiều",
+          "example": "How much water do you drink every day?",
+          "explanation": "many + danh từ đếm được số nhiều; much + danh từ không đếm được. How many...? / How much...?",
+          "level": 1,
+          "source": {
+            "cefrj": "QUANT.much",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "A few & A little",
+          "phonetic": null,
+          "meaning": "Nói về một ít, một vài (đủ dùng)",
+          "example": "I have a few friends and a little free time.",
+          "explanation": "a few + danh từ đếm được số nhiều; a little + danh từ không đếm được. few/little (không có a) = rất ít, gần như không.",
+          "level": 3,
+          "source": {
+            "cefrj": "QUANT.few",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Irregular plural nouns",
+          "phonetic": null,
+          "meaning": "Một số danh từ có dạng số nhiều bất quy tắc",
+          "example": "The children are playing outside.",
+          "explanation": "child → children, man → men, woman → women, foot → feet, tooth → teeth, person → people.",
+          "level": 1,
+          "source": {
+            "cefrj": "DT.a.an",
+            "cefr": "A1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Đại từ",
+      "description": "Đại từ nhân xưng, sở hữu, phản thân và bất định",
+      "icon": "person_rounded",
+      "items": [
+        {
+          "term": "Subject & object pronouns",
+          "phonetic": null,
+          "meaning": "Đại từ làm chủ ngữ và làm tân ngữ",
+          "example": "She called me last night.",
+          "explanation": "Chủ ngữ: I, you, he, she, it, we, they. Tân ngữ: me, you, him, her, it, us, them (đứng sau động từ/giới từ).",
+          "level": 1,
+          "source": {
+            "cefrj": "PPO",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Possessive adjectives",
+          "phonetic": null,
+          "meaning": "Tính từ sở hữu đứng trước danh từ",
+          "example": "This is my brother and his wife.",
+          "explanation": "my, your, his, her, its, our, their + danh từ. Không dùng mạo từ cùng tính từ sở hữu.",
+          "level": 1,
+          "source": {
+            "cefrj": "PGEN",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Possessive pronouns",
+          "phonetic": null,
+          "meaning": "Đại từ sở hữu thay cho tính từ sở hữu + danh từ",
+          "example": "This bag is mine, not yours.",
+          "explanation": "mine, yours, his, hers, ours, theirs đứng một mình, không có danh từ theo sau.",
+          "level": 2,
+          "source": {
+            "cefrj": "PPOS.mine.etc",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Reflexive pronouns",
+          "phonetic": null,
+          "meaning": "Chủ ngữ và tân ngữ là cùng một người",
+          "example": "He taught himself to play the guitar.",
+          "explanation": "myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. by + oneself = một mình.",
+          "level": 2,
+          "source": {
+            "cefrj": "PREFL.oneself.etc",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Each other",
+          "phonetic": null,
+          "meaning": "Hai người làm cùng một việc cho nhau",
+          "example": "Lan and Mai help each other with homework.",
+          "explanation": "S (số nhiều) + V + each other. Khác reflexive: they love each other ≠ they love themselves.",
+          "level": 2,
+          "source": {
+            "cefrj": "PREF.each_other",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Indefinite pronouns",
+          "phonetic": null,
+          "meaning": "Chỉ người hoặc vật không xác định",
+          "example": "Is there anything I can do for you?",
+          "explanation": "some-/any-/no-/every- + body/one/thing/where. Động từ theo sau chia số ít: Everybody is here.",
+          "level": 1,
+          "source": {
+            "cefrj": "PIND.nobody.anything.etc",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "One & Ones",
+          "phonetic": null,
+          "meaning": "Thay cho danh từ đếm được đã nhắc tới để khỏi lặp lại",
+          "example": "I like the blue shirt more than the red one.",
+          "explanation": "one thay danh từ số ít, ones thay danh từ số nhiều: the red one, the new ones.",
+          "level": 1,
+          "source": {
+            "cefrj": "PIND.ones",
+            "cefr": "A2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Giới từ",
+      "description": "Giới từ chỉ thời gian, nơi chốn, chuyển động và cụm động từ",
+      "icon": "place_rounded",
+      "items": [
+        {
+          "term": "Prepositions of time: in, on, at",
+          "phonetic": null,
+          "meaning": "Giới từ in/on/at chỉ thời gian",
+          "example": "The meeting starts at nine on Monday.",
+          "explanation": "in + tháng/năm/mùa/buổi (in May, in the morning); on + ngày/thứ (on Monday); at + giờ/thời điểm (at 6 p.m., at night).",
+          "level": 1,
+          "source": {
+            "cefrj": "IN.PREP.GENERAL",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Prepositions of place: in, on, at",
+          "phonetic": null,
+          "meaning": "Giới từ in/on/at chỉ nơi chốn",
+          "example": "The keys are in the drawer.",
+          "explanation": "in: bên trong không gian (in the box, in Hanoi); on: trên bề mặt (on the table); at: tại một điểm (at home, at the bus stop).",
+          "level": 1,
+          "source": {
+            "cefrj": "IN.PREP.GENERAL",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Prepositions of position",
+          "phonetic": null,
+          "meaning": "Giới từ chỉ vị trí tương đối giữa các vật",
+          "example": "The bank is between the café and the bookstore.",
+          "explanation": "next to, between, behind, in front of, opposite, above, below, under.",
+          "level": 1,
+          "source": {
+            "cefrj": "IN.PREP.GENERAL",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Prepositions of movement",
+          "phonetic": null,
+          "meaning": "Giới từ chỉ hướng di chuyển",
+          "example": "She walked into the room and sat down.",
+          "explanation": "to, into, out of, through, across, along, up, down, past, towards.",
+          "level": 2,
+          "source": {
+            "cefrj": "IN.PREP.GENERAL",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "By vs Until",
+          "phonetic": null,
+          "meaning": "by = trước hoặc muộn nhất là lúc; until = kéo dài cho tới lúc",
+          "example": "Please finish the report by Friday.",
+          "explanation": "by + mốc: hạn chót (by Friday). until + mốc: trạng thái kéo dài liên tục tới mốc đó (until 5 p.m.).",
+          "level": 2,
+          "source": {
+            "cefrj": "IN.PREP.GENERAL",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Adjective + preposition",
+          "phonetic": null,
+          "meaning": "Một số tính từ luôn đi kèm giới từ cố định",
+          "example": "He is interested in learning Japanese.",
+          "explanation": "interested in, good at, afraid of, proud of, famous for, responsible for, different from. Sau giới từ dùng danh từ hoặc V-ing.",
+          "level": 2,
+          "source": {
+            "cefrj": "IN.PREP.GENERAL",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Phrasal verbs",
+          "phonetic": null,
+          "meaning": "Động từ kết hợp với giới từ hoặc trạng từ tạo nghĩa mới",
+          "example": "She looks after her younger brother.",
+          "explanation": "look after (chăm sóc), give up (từ bỏ), turn on/off (bật/tắt), find out (tìm ra), get up (thức dậy).",
+          "level": 1,
+          "source": {
+            "cefrj": "PHV.V_PART",
+            "cefr": "A1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "So sánh",
+      "description": "So sánh hơn, so sánh nhất, so sánh bằng và các cấu trúc mức độ",
+      "icon": "compare_arrows_rounded",
+      "items": [
+        {
+          "term": "Comparative adjectives",
+          "phonetic": null,
+          "meaning": "So sánh hơn giữa hai đối tượng",
+          "example": "This book is more interesting than that one.",
+          "explanation": "Tính từ ngắn: adj-er + than (taller than). Tính từ dài: more + adj + than (more expensive than).",
+          "level": 1,
+          "source": {
+            "cefrj": "COMP.JJR.RBR.er",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Superlative adjectives",
+          "phonetic": null,
+          "meaning": "So sánh nhất trong một nhóm từ ba đối tượng trở lên",
+          "example": "She is the tallest student in our class.",
+          "explanation": "Tính từ ngắn: the + adj-est (the tallest). Tính từ dài: the most + adj (the most beautiful).",
+          "level": 1,
+          "source": {
+            "cefrj": "COMP.JJS.RBS.est",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Irregular comparatives",
+          "phonetic": null,
+          "meaning": "Các tính từ so sánh bất quy tắc",
+          "example": "Her English is better than mine.",
+          "explanation": "good → better → the best; bad → worse → the worst; far → farther/further; many/much → more → the most.",
+          "level": 1,
+          "source": {
+            "cefrj": "COMP.JJR.RBR.er",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "As ... as",
+          "phonetic": null,
+          "meaning": "So sánh bằng",
+          "example": "He is as tall as his father.",
+          "explanation": "as + adj/adv + as. Phủ định: not as/so + adj + as (kém hơn).",
+          "level": 3,
+          "source": {
+            "cefrj": "COMP.EQ.as_as",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Much / far + comparative",
+          "phonetic": null,
+          "meaning": "Nhấn mạnh mức độ chênh lệch khi so sánh hơn",
+          "example": "This phone is much cheaper than that one.",
+          "explanation": "much/far/a lot + adj-er/more + adj + than. even + so sánh hơn = thậm chí còn... hơn.",
+          "level": 2,
+          "source": {
+            "cefrj": "COMP.even_JJR.RBR",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "The more ..., the more ...",
+          "phonetic": null,
+          "meaning": "Càng... càng...",
+          "example": "The more you practice, the better you get.",
+          "explanation": "The + so sánh hơn + S + V, the + so sánh hơn + S + V.",
+          "level": 3,
+          "source": {
+            "cefrj": "COMP.the_the",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Too ... to",
+          "phonetic": null,
+          "meaning": "Quá... đến mức không thể làm gì",
+          "example": "He is too young to drive a car.",
+          "explanation": "too + adj/adv + (for somebody) + to V. Mang nghĩa phủ định dù không có not.",
+          "level": 2,
+          "source": {
+            "cefrj": "RBDEG.too_to",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Enough",
+          "phonetic": null,
+          "meaning": "Đủ... để làm gì",
+          "example": "She is old enough to travel alone.",
+          "explanation": "adj/adv + enough + to V (old enough to drive); enough + danh từ (enough money).",
+          "level": 3,
+          "source": {
+            "cefrj": "RBDEG.enough",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "So ... that",
+          "phonetic": null,
+          "meaning": "Quá... đến nỗi mà (nêu kết quả)",
+          "example": "The soup was so hot that I could not eat it.",
+          "explanation": "so + adj/adv + that + mệnh đề. such + (a/an) + adj + danh từ + that + mệnh đề.",
+          "level": 2,
+          "source": {
+            "cefrj": "RBDEG.so_JJ.RB_that",
+            "cefr": "B1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Động từ khuyết thiếu",
+      "description": "Can, could, must, should, may, might, have to",
+      "icon": "gavel_rounded",
+      "items": [
+        {
+          "term": "Can",
+          "phonetic": null,
+          "meaning": "Chỉ khả năng hoặc xin phép một cách thân mật",
+          "example": "Can I borrow your pen?",
+          "explanation": "S + can + V (không chia, không to). Phủ định: can't. Câu hỏi xin phép: Can I + V?",
+          "level": 1,
+          "source": {
+            "cefrj": "MD.can.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Could",
+          "phonetic": null,
+          "meaning": "Khả năng trong quá khứ hoặc yêu cầu lịch sự",
+          "example": "Could you open the window, please?",
+          "explanation": "could + V: quá khứ của can (I could swim at five) hoặc lời đề nghị lịch sự (Could you...?).",
+          "level": 2,
+          "source": {
+            "cefrj": "MD.could.AFF",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Should",
+          "phonetic": null,
+          "meaning": "Đưa ra lời khuyên",
+          "example": "You should see a doctor.",
+          "explanation": "S + should/shouldn't + V. ought to + V có nghĩa tương tự nhưng trang trọng hơn.",
+          "level": 1,
+          "source": {
+            "cefrj": "MD.should.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Must",
+          "phonetic": null,
+          "meaning": "Sự bắt buộc do người nói thấy cần thiết, hoặc suy luận chắc chắn",
+          "example": "You must wear a helmet on a motorbike.",
+          "explanation": "S + must + V. Suy luận: She must be tired (chắc hẳn cô ấy mệt).",
+          "level": 2,
+          "source": {
+            "cefrj": "MD.must.AFF",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Have to",
+          "phonetic": null,
+          "meaning": "Sự bắt buộc do quy định hoặc hoàn cảnh bên ngoài",
+          "example": "We have to wear a uniform at school.",
+          "explanation": "S + have/has to + V. Quá khứ: had to. Câu hỏi: Do you have to...?",
+          "level": 1,
+          "source": {
+            "cefrj": "MD.have_to.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Mustn't vs Don't have to",
+          "phonetic": null,
+          "meaning": "mustn't = bị cấm; don't have to = không cần thiết",
+          "example": "You don't have to come early, but you mustn't be late.",
+          "explanation": "mustn't + V: không được phép. don't/doesn't have to + V: không bắt buộc, làm cũng được không làm cũng được.",
+          "level": 3,
+          "source": {
+            "cefrj": "MD.have_to.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "May / Might",
+          "phonetic": null,
+          "meaning": "Khả năng có thể xảy ra nhưng không chắc chắn",
+          "example": "It might rain later this afternoon.",
+          "explanation": "S + may/might + V. might thường ít chắc chắn hơn may. May I...? còn dùng để xin phép trang trọng.",
+          "level": 2,
+          "source": {
+            "cefrj": "MD.might.AFF",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Had better",
+          "phonetic": null,
+          "meaning": "Lời khuyên mạnh, ngụ ý có hậu quả nếu không làm",
+          "example": "You'd better leave now or you'll miss the bus.",
+          "explanation": "S + had better ('d better) + V. Phủ định: had better not + V.",
+          "level": 3,
+          "source": {
+            "cefrj": "MD.had_better.AFF",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Should have + V3",
+          "phonetic": null,
+          "meaning": "Tiếc nuối hoặc trách điều lẽ ra nên làm trong quá khứ",
+          "example": "You should have told me earlier.",
+          "explanation": "S + should have + V3 (lẽ ra nên); shouldn't have + V3 (lẽ ra không nên).",
+          "level": 3,
+          "source": {
+            "cefrj": "MD.MD_PF.AFF",
+            "cefr": "B2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Câu bị động",
+      "description": "Bị động ở các thì và với động từ khuyết thiếu",
+      "icon": "swap_horiz_rounded",
+      "items": [
+        {
+          "term": "Passive - Present Simple",
+          "phonetic": null,
+          "meaning": "Bị động thì hiện tại đơn",
+          "example": "English is spoken in many countries.",
+          "explanation": "S + am/is/are + V3 (+ by O). Dùng khi người thực hiện không quan trọng hoặc không rõ.",
+          "level": 1,
+          "source": {
+            "cefrj": "PASS.PRESENT",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Passive - Past Simple",
+          "phonetic": null,
+          "meaning": "Bị động thì quá khứ đơn",
+          "example": "This bridge was built in 1990.",
+          "explanation": "S + was/were + V3 (+ by O).",
+          "level": 1,
+          "source": {
+            "cefrj": "PASS.PAST.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Passive - Present Perfect",
+          "phonetic": null,
+          "meaning": "Bị động thì hiện tại hoàn thành",
+          "example": "The house has been sold.",
+          "explanation": "S + have/has been + V3.",
+          "level": 3,
+          "source": {
+            "cefrj": "PASS.PRSPF.AFF",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Passive - Future Simple",
+          "phonetic": null,
+          "meaning": "Bị động thì tương lai đơn",
+          "example": "The results will be announced next week.",
+          "explanation": "S + will be + V3.",
+          "level": 3,
+          "source": {
+            "cefrj": "PASS.FUT.AFF",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Passive - Present Continuous",
+          "phonetic": null,
+          "meaning": "Bị động thì hiện tại tiếp diễn",
+          "example": "The road is being repaired this week.",
+          "explanation": "S + am/is/are being + V3.",
+          "level": 3,
+          "source": {
+            "cefrj": "PASS.PRSPRG.AFF",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Passive with modal verbs",
+          "phonetic": null,
+          "meaning": "Bị động với động từ khuyết thiếu",
+          "example": "This task must be finished today.",
+          "explanation": "S + can/must/should/may + be + V3.",
+          "level": 2,
+          "source": {
+            "cefrj": "PASS.MD.AFF",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Causative have/get something done",
+          "phonetic": null,
+          "meaning": "Nhờ hoặc thuê người khác làm gì cho mình",
+          "example": "I had my hair cut yesterday.",
+          "explanation": "S + have/get + O (vật) + V3. Ví dụ: have my hair cut, get the car repaired.",
+          "level": 3,
+          "source": {
+            "cefrj": "CAUS.have.get_NP_VN",
+            "cefr": "B2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Câu điều kiện & câu ước",
+      "description": "Câu điều kiện loại 0–3, unless và wish",
+      "icon": "alt_route_rounded",
+      "items": [
+        {
+          "term": "Conditional type 0",
+          "phonetic": null,
+          "meaning": "Sự thật hiển nhiên, quy luật luôn đúng",
+          "example": "If you heat ice, it melts.",
+          "explanation": "If + hiện tại đơn, hiện tại đơn.",
+          "level": 1,
+          "source": {
+            "cefrj": "CL.if",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Conditional type 1",
+          "phonetic": null,
+          "meaning": "Điều kiện có thể xảy ra ở hiện tại hoặc tương lai",
+          "example": "If it rains, we will stay home.",
+          "explanation": "If + hiện tại đơn, S + will/can + V.",
+          "level": 1,
+          "source": {
+            "cefrj": "CL.if",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Conditional type 2",
+          "phonetic": null,
+          "meaning": "Điều kiện không có thật ở hiện tại",
+          "example": "If I were rich, I would travel the world.",
+          "explanation": "If + quá khứ đơn (to be dùng were cho mọi ngôi), S + would/could + V.",
+          "level": 2,
+          "source": {
+            "cefrj": "SUBJ.PAST.AFF",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Conditional type 3",
+          "phonetic": null,
+          "meaning": "Điều kiện không có thật trong quá khứ",
+          "example": "If she had studied harder, she would have passed.",
+          "explanation": "If + had + V3, S + would/could have + V3.",
+          "level": 3,
+          "source": {
+            "cefrj": "SUBJ.PASTPF.AFF",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Mixed conditional",
+          "phonetic": null,
+          "meaning": "Điều kiện trái với quá khứ dẫn tới kết quả ở hiện tại",
+          "example": "If I had taken that job, I would be rich now.",
+          "explanation": "If + had + V3, S + would + V (bây giờ).",
+          "level": 3,
+          "source": {
+            "cefrj": "SUBJ.PASTPF.AFF",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Unless",
+          "phonetic": null,
+          "meaning": "Trừ khi (= if ... not)",
+          "example": "You will miss the bus unless you hurry.",
+          "explanation": "Unless + mệnh đề khẳng định = If + mệnh đề phủ định. Không dùng not sau unless.",
+          "level": 2,
+          "source": {
+            "cefrj": "CL.if",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Wish + Past Simple",
+          "phonetic": null,
+          "meaning": "Ước điều trái với hiện tại",
+          "example": "I wish I spoke French fluently.",
+          "explanation": "S + wish + S + V2/ed (to be dùng were). Ví dụ: I wish I had more time.",
+          "level": 3,
+          "source": {
+            "cefrj": "SUBJ.wish_PAST",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Wish + Past Perfect",
+          "phonetic": null,
+          "meaning": "Tiếc nuối điều đã xảy ra trong quá khứ",
+          "example": "I wish I had studied harder at school.",
+          "explanation": "S + wish + S + had + V3.",
+          "level": 3,
+          "source": {
+            "cefrj": "SUBJ.wish_PASTPF",
+            "cefr": "B2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mệnh đề quan hệ",
+      "description": "Who, which, that, whose, where, when",
+      "icon": "link_rounded",
+      "items": [
+        {
+          "term": "Relative pronoun who",
+          "phonetic": null,
+          "meaning": "who thay cho danh từ chỉ người",
+          "example": "The man who lives next door is a doctor.",
+          "explanation": "N (người) + who + V... who làm chủ ngữ của mệnh đề quan hệ.",
+          "level": 1,
+          "source": {
+            "cefrj": "PREL.who",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Relative pronoun which",
+          "phonetic": null,
+          "meaning": "which thay cho danh từ chỉ vật hoặc con vật",
+          "example": "The phone which I bought last week is broken.",
+          "explanation": "N (vật) + which + V... hoặc N + which + S + V...",
+          "level": 3,
+          "source": {
+            "cefrj": "PREL.which",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Relative pronoun that",
+          "phonetic": null,
+          "meaning": "that thay cho who/which trong mệnh đề xác định",
+          "example": "This is the house that my grandfather built.",
+          "explanation": "Dùng được cho cả người và vật, chỉ trong mệnh đề xác định (không có dấu phẩy).",
+          "level": 1,
+          "source": {
+            "cefrj": "PREL.that",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Relative pronoun whose",
+          "phonetic": null,
+          "meaning": "whose chỉ sự sở hữu",
+          "example": "That's the girl whose bag was stolen.",
+          "explanation": "N + whose + danh từ + V... (whose = của người/vật đứng trước).",
+          "level": 3,
+          "source": {
+            "cefrj": "PRELGEN",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Relative adverbs where & when",
+          "phonetic": null,
+          "meaning": "where thay cho nơi chốn, when thay cho thời gian",
+          "example": "This is the café where we first met.",
+          "explanation": "N (nơi chốn) + where + S + V; N (thời gian) + when + S + V.",
+          "level": 1,
+          "source": {
+            "cefrj": "RBREL",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Omitting the relative pronoun",
+          "phonetic": null,
+          "meaning": "Lược bỏ đại từ quan hệ khi nó làm tân ngữ",
+          "example": "The film we watched last night was great.",
+          "explanation": "Khi who/which/that là tân ngữ của mệnh đề quan hệ có thể bỏ đi: the book (that) I read.",
+          "level": 1,
+          "source": {
+            "cefrj": "PRELO.OMIT",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Non-defining relative clauses",
+          "phonetic": null,
+          "meaning": "Mệnh đề quan hệ bổ sung thông tin, đặt giữa dấu phẩy",
+          "example": "My brother, who lives in Hanoi, is a teacher.",
+          "explanation": "N, who/which + ..., — thông tin thêm, bỏ đi câu vẫn đủ nghĩa. Không dùng that, không lược bỏ đại từ.",
+          "level": 2,
+          "source": {
+            "cefrj": "PREL.NR",
+            "cefr": "B1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Câu gián tiếp",
+      "description": "Tường thuật câu kể, câu hỏi và câu mệnh lệnh",
+      "icon": "record_voice_over_rounded",
+      "items": [
+        {
+          "term": "Say vs Tell",
+          "phonetic": null,
+          "meaning": "Phân biệt say và tell khi tường thuật",
+          "example": "She told me that she was busy.",
+          "explanation": "say + (that) + mệnh đề / say something to somebody; tell + somebody + (that) + mệnh đề.",
+          "level": 2,
+          "source": {
+            "cefrj": "INDSP.tell",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Reported statements",
+          "phonetic": null,
+          "meaning": "Tường thuật câu kể, lùi thì động từ",
+          "example": "He said that he was tired.",
+          "explanation": "am/is → was, are → were, V(s) → V2, will → would, can → could, V2 → had V3.",
+          "level": 1,
+          "source": {
+            "cefrj": "INDSP.explain.report.say",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Reported questions",
+          "phonetic": null,
+          "meaning": "Tường thuật câu hỏi có từ để hỏi",
+          "example": "She asked me where I lived.",
+          "explanation": "ask + (O) + wh- + S + V (không đảo ngữ, không dùng do/does/did, lùi thì).",
+          "level": 2,
+          "source": {
+            "cefrj": "INDQ.ask.etc",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Reported yes/no questions",
+          "phonetic": null,
+          "meaning": "Tường thuật câu hỏi Có/Không",
+          "example": "He asked me if I liked coffee.",
+          "explanation": "ask + (O) + if/whether + S + V (lùi thì).",
+          "level": 2,
+          "source": {
+            "cefrj": "INDQ.ask.etc",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Reported commands & requests",
+          "phonetic": null,
+          "meaning": "Tường thuật mệnh lệnh hoặc lời yêu cầu",
+          "example": "The teacher told us to be quiet.",
+          "explanation": "tell/ask + O + (not) to V.",
+          "level": 2,
+          "source": {
+            "cefrj": "CAUS.ask.tell_NP_to_do",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "Time and place changes",
+          "phonetic": null,
+          "meaning": "Đổi trạng từ thời gian và nơi chốn khi tường thuật",
+          "example": "He said he would come the next day.",
+          "explanation": "now → then, today → that day, tomorrow → the next day, yesterday → the day before, here → there.",
+          "level": 3,
+          "source": {
+            "cefrj": "INDSP.explain.report.say",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "Indirect questions",
+          "phonetic": null,
+          "meaning": "Hỏi lịch sự bằng câu hỏi gián tiếp",
+          "example": "Could you tell me where the station is?",
+          "explanation": "Do you know / Could you tell me + wh-/if + S + V? Trật tự từ như câu kể.",
+          "level": 1,
+          "source": {
+            "cefrj": "INDQ.know.etc",
+            "cefr": "A2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Danh động từ & To-V",
+      "description": "Khi nào dùng V-ing, khi nào dùng to V",
+      "icon": "extension_rounded",
+      "items": [
+        {
+          "term": "Verb + to V",
+          "phonetic": null,
+          "meaning": "Một số động từ theo sau là to V",
+          "example": "She decided to study abroad.",
+          "explanation": "want, decide, hope, plan, agree, promise, refuse, learn, need, would like + to V.",
+          "level": 1,
+          "source": {
+            "cefrj": "TO.VV_to_do",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Verb + V-ing",
+          "phonetic": null,
+          "meaning": "Một số động từ theo sau là V-ing",
+          "example": "I enjoy reading books in the evening.",
+          "explanation": "enjoy, finish, avoid, mind, suggest, keep, practise, consider + V-ing.",
+          "level": 1,
+          "source": {
+            "cefrj": "VG.VV_VG",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Verb + object + to V",
+          "phonetic": null,
+          "meaning": "Muốn hoặc yêu cầu ai đó làm gì",
+          "example": "My parents want me to become a doctor.",
+          "explanation": "want/ask/tell/allow/advise/expect + O + to V.",
+          "level": 1,
+          "source": {
+            "cefrj": "TO.VV_NP_to_do",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Gerund as subject",
+          "phonetic": null,
+          "meaning": "V-ing đứng đầu câu làm chủ ngữ",
+          "example": "Swimming is good for your health.",
+          "explanation": "V-ing (+ O) + V (chia số ít) ...",
+          "level": 1,
+          "source": {
+            "cefrj": "VG",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Preposition + V-ing",
+          "phonetic": null,
+          "meaning": "Sau giới từ luôn dùng V-ing",
+          "example": "Thank you for helping me.",
+          "explanation": "giới từ (in, at, of, about, without, before, after...) + V-ing.",
+          "level": 1,
+          "source": {
+            "cefrj": "VG.PREP_VG",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "It + adjective + to V",
+          "phonetic": null,
+          "meaning": "Nhận xét về một việc",
+          "example": "It is important to drink enough water.",
+          "explanation": "It is + adj + (for somebody) + to V.",
+          "level": 1,
+          "source": {
+            "cefrj": "PP.it_to_do.AFF",
+            "cefr": "A2"
+          }
+        },
+        {
+          "term": "In order to",
+          "phonetic": null,
+          "meaning": "Diễn tả mục đích",
+          "example": "He studies hard in order to pass the exam.",
+          "explanation": "S + V + (in order) to V. Phủ định: in order not to / so as not to + V.",
+          "level": 3,
+          "source": {
+            "cefrj": "TO.in_order_to_do",
+            "cefr": "B2"
+          }
+        },
+        {
+          "term": "Remember / Stop + V-ing or to V",
+          "phonetic": null,
+          "meaning": "Đổi nghĩa tuỳ theo theo sau là V-ing hay to V",
+          "example": "Remember to lock the door before you leave.",
+          "explanation": "remember to V: nhớ phải làm; remember V-ing: nhớ đã làm. stop to V: dừng lại để làm; stop V-ing: thôi làm.",
+          "level": 3,
+          "source": {
+            "cefrj": "TO.VV_to_do",
+            "cefr": "A1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Câu hỏi & cấu trúc câu",
+      "description": "Câu hỏi, câu hỏi đuôi, there is/are và câu mệnh lệnh",
+      "icon": "quiz_rounded",
+      "items": [
+        {
+          "term": "Wh- questions",
+          "phonetic": null,
+          "meaning": "Câu hỏi với từ để hỏi",
+          "example": "Where do you usually have lunch?",
+          "explanation": "Wh- (what, where, when, why, who, how) + trợ động từ + S + V? Hỏi chủ ngữ thì không cần trợ động từ: Who called you?",
+          "level": 1,
+          "source": {
+            "cefrj": "INT.what",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "How + adjective/adverb",
+          "phonetic": null,
+          "meaning": "Hỏi về mức độ, số lượng, khoảng cách",
+          "example": "How often do you go to the gym?",
+          "explanation": "How + adj/adv + ...? How old, how long, how far, how often, how much, how many.",
+          "level": 1,
+          "source": {
+            "cefrj": "INT.how_JJ.RB",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "There is / There are",
+          "phonetic": null,
+          "meaning": "Diễn tả sự tồn tại của người hoặc vật",
+          "example": "There are two banks near my office.",
+          "explanation": "There is + danh từ số ít/không đếm được; There are + danh từ số nhiều. Câu hỏi: Is there / Are there...?",
+          "level": 1,
+          "source": {
+            "cefrj": "EX.there.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Imperatives",
+          "phonetic": null,
+          "meaning": "Câu mệnh lệnh, yêu cầu, chỉ dẫn",
+          "example": "Please don't touch the screen.",
+          "explanation": "V nguyên mẫu ở đầu câu (Close the door). Phủ định: Don't + V. Thêm please cho lịch sự.",
+          "level": 1,
+          "source": {
+            "cefrj": "IMP.V.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Let's",
+          "phonetic": null,
+          "meaning": "Rủ ai đó cùng làm gì",
+          "example": "Let's take a break for ten minutes.",
+          "explanation": "Let's + V. Phủ định: Let's not + V. Đáp: Yes, let's / Good idea.",
+          "level": 1,
+          "source": {
+            "cefrj": "IMP.let's_V.AFF",
+            "cefr": "A1"
+          }
+        },
+        {
+          "term": "Question tags",
+          "phonetic": null,
+          "meaning": "Câu hỏi đuôi để xác nhận thông tin",
+          "example": "You are a new student, aren't you?",
+          "explanation": "Câu khẳng định + đuôi phủ định (..., isn't it?); câu phủ định + đuôi khẳng định (..., do you?). Đuôi dùng trợ động từ.",
+          "level": 2,
+          "source": {
+            "cefrj": "TAG.AFF",
+            "cefr": "B1"
+          }
+        },
+        {
+          "term": "So / Neither + auxiliary + S",
+          "phonetic": null,
+          "meaning": "Đồng tình: tôi cũng vậy / tôi cũng không",
+          "example": "I love Vietnamese food. So do I.",
+          "explanation": "Khẳng định: So + trợ động từ + S (So do I). Phủ định: Neither + trợ động từ + S (Neither can I).",
+          "level": 2,
+          "source": {
+            "cefrj": "INV.so_V_NP",
+            "cefr": "B2"
+          }
+        }
+      ]
+    }
+  ]
+}
